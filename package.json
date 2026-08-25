@@ -1,5 +1,6 @@
 {
-  "name": "enhance",
+  
+  "name": "warsal",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,6 +18,11 @@
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "tailwind-merge": "3.6.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "unrs-resolver"
+    ]
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
