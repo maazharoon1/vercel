@@ -189,7 +189,7 @@ const router = useRouter()
                 whileHover={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.18 }}
               >
-                <div className="min-w-0 max-w-full rounded-xl bg-black/20 p-2 backdrop-blur-[2px] md:bg-white/4 md:backdrop-blur-sm">
+                <div className="min-w-0 max-w-full rounded-xl bg-black/20 p-2 backdrop-blur-[2px] md:bg-black/4 md:backdrop-blur-sm">
                   <motion.p
                     className="line-clamp-2 font-serif text-sm leading-tight text-white sm:text-base md:text-[15px]"
                     style={
@@ -202,7 +202,7 @@ const router = useRouter()
                   </motion.p>
 
                   <p
-                    className="mt-1 inline-flex items-center gap-1 text-[9px] uppercase tracking-[0.12em] text-white/80 sm:text-[10px]"
+                    className="mt-1 inline-flex items-center gap-1 text-[9px] uppercase tracking-[0.12em] text-white sm:text-[10px]"
                     style={
                       Project.color
                         ? { color: Project.color }
@@ -260,12 +260,12 @@ const router = useRouter()
               rounded-full
               border
               border-white/10
-              bg-white/5
+              bg-black/5
               px-7
               py-3
               text-sm
               font-medium
-              text-white
+              text-black
               backdrop-blur-md
               transition
               hover:border-purple-500/40

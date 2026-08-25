@@ -147,7 +147,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
         flex
         items-center
         justify-center
-        bg-black/40
+        bg-white/40
         p-3
         backdrop-blur-2xl
         sm:p-5
@@ -188,7 +188,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
           -translate-x-1/2
           -translate-y-1/2
           rounded-full
-          bg-[#681e99]/80
+          bg-[#01d2d1]/30
           blur-[150px]
         "
         animate={{
@@ -221,9 +221,9 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
           rounded-full
           border
           border-white/10
-          bg-white/10
+          bg-black/10
           text-xl
-          text-white/80
+          text-black/80
           shadow-xl
           backdrop-blur-xl
           sm:right-6
@@ -323,16 +323,16 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
             transition={{ delay: 0.25 }}
           >
             <div className="flex items-center gap-3">
-              <span className="h-1.5 w-1.5 rounded-full bg-[#681e99] shadow-[0_0_12px_4px_rgba(168,85,247,0.5)]" />
+              <span className="h-1.5 w-1.5 rounded-full bg-[#01d2d1] shadow-[0_0_12px_4px_rgba(168,85,247,0.5)]" />
 
-              <span className="text-[12px] uppercase tracking-[0.25em] text-white/40">
+              <span className="text-[12px] uppercase tracking-[0.25em] text-black/40">
                 {project.filter}
               </span>
             </div>
 
-            <span className="text-xs text-white/40">
+            <span className="text-xs text-black/40">
               {String(activeImage + 1).padStart(2, "0")}
-              <span className="mx-1 text-white/20">/</span>
+              <span className="mx-1 text-black/20">/</span>
               {String(images.length).padStart(2, "0")}
             </span>
           </motion.div>
@@ -353,8 +353,9 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
               overflow-hidden
               rounded-xl
               border
-              border-white/10
-              bg-black/60
+              border-[#01d2d1]/20
+              bg-white/50
+              backdrop-blur-3xl
             ">
               {/* Image */}
               <AnimatePresence
@@ -414,16 +415,17 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
                     rounded-full
                     border
                     border-white/10
-                    bg-black/30
+                    bg-white/30
                     text-lg
                     text-white
+
                     backdrop-blur-xl
                     sm:left-5
                   "
                   whileHover={{
                     x: -3,
                     scale: 1.1,
-                    backgroundColor: "rgba(168,85,247,0.35)",
+                    backgroundColor: "#01d2d1",
                   }}
                   whileTap={{
                     scale: 0.9,
@@ -454,7 +456,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
                     rounded-full
                     border
                     border-white/10
-                    bg-black/30
+                    bg-white/30
                     text-lg
                     text-white
                     backdrop-blur-xl
@@ -463,7 +465,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
                   whileHover={{
                     x: 3,
                     scale: 1.1,
-                    backgroundColor: "rgba(168,85,247,0.35)",
+                    backgroundColor: "#01d2d1",
                   }}
                   whileTap={{
                     scale: 0.9,
@@ -522,7 +524,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
                     sm:w-24
                     ${
                       activeImage === index
-                        ? "border-purple-500 ring-2 ring-purple-500/20"
+                        ? "border-[#01d2d1] "
                         : "border-white/10 opacity-50 hover:opacity-100"
                     }
                   `}
@@ -549,7 +551,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
                   {activeImage === index && (
                     <motion.div
                       layoutId="activeThumbnail"
-                      className="absolute inset-0 border-2 border-purple-400/70 rounded-lg"
+                      className="absolute inset-0 border-2 border-[#01d2d1] rounded-lg"
                     />
                   )}
                 </motion.button>
@@ -570,7 +572,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
             overflow-y-auto
             border-t
             border-white/10
-            bg-white/2
+            bg-black/2
             p-5
             sm:p-7
             lg:w-85
@@ -597,7 +599,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.35 }}
           >
-            <p className="text-[10px] uppercase tracking-[0.3em] text-purple-400">
+            <p className="text-[10px] uppercase tracking-[0.3em] text-[#01d2d1]">
               Project Information
             </p>
 
@@ -606,7 +608,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
               text-2xl
               font-medium
               tracking-tight
-              text-white
+              text-black
               sm:text-3xl
             ">
               {project.title}
@@ -616,7 +618,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
           {/* Description */}
           {project.description && (
             <motion.p
-              className="mt-5 text-sm leading-6 text-white/50"
+              className="mt-5 text-sm leading-6 text-black/50"
               initial={{
                 opacity: 0,
                 y: 10,
@@ -637,7 +639,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
 
           {/* Divider */}
           <motion.div
-            className="my-7 h-px bg-white/10"
+            className="my-7 h-px bg-black/10"
             initial={{
               scaleX: 0,
               transformOrigin: "left",
@@ -653,14 +655,14 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
 
           {/* Details */}
          {project.type && project.type == "video" ?    
-            <div className="mt-3  text-sm text-white/50">
+            <div className="mt-3  text-sm text-black/50">
   If the video isn't playing,{" "} 
   <div>
   <Link
     href={`https://res.cloudinary.com/hcn0f9nu/video/upload/v1786745203/${project.video}.mp4`}
     target="_blank"
     rel="noopener noreferrer"
-    className="text-purple-400 underline underline-offset-4 hover:text-purple-300"
+    className="text-[#01d2d1] underline underline-offset-4 hover:text-[#01d2d1]"
   >
     click here to watch it
   </Link>
@@ -673,11 +675,11 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.55 }}
             >
-              <p className="text-[10px] uppercase tracking-[0.2em] text-white/30">
+              <p className="text-[10px] uppercase tracking-[0.2em] text-black/30">
                 Category
               </p>
 
-              <p className="mt-2 text-sm text-white">
+              <p className="mt-2 text-sm text-black">
                 {project.filter}
               </p>
             </motion.div>

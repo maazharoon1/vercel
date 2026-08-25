@@ -6,7 +6,7 @@ import Seperator from "@/components/ui/Seperator";
 
 export default function Home() {
   return (
-    <div className="relative z-0  min-h-screen overflow-x-hidden">
+    <div className="relative z-0 bg-white min-h-screen overflow-x-hidden">
       <Background />
 
       <div className="relative z-10 ">

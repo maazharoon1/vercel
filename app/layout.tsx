@@ -13,14 +13,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://spotonportfolio.example"),
+  metadataBase: new URL("https://www.warsal-portfolio.com"),
   title: {
-    default: "Spot On Solutions | Portfolio",
-    template: "%s | Spot On Solutions",
+    default: "Warsal | Portfolio",
+    template: "%s | Warsal",
   },
   description:
-    "Spot On Solutions creates premium branding, motion graphics, packaging, and digital design experiences for modern businesses.",
-  applicationName: "Spot On Solutions Portfolio",
+    "Warsal creates premium branding, motion graphics, packaging, and digital design experiences for modern businesses.",
+  applicationName: "Warsal Portfolio",
   keywords: [
     "graphic designer",
     "brand identity",
@@ -30,24 +30,24 @@ export const metadata: Metadata = {
     "social media design",
     "motion graphics",
   ],
-  authors: [{ name: "Spot On Solutions" }],
-  creator: "Spot On Solutions",
-  publisher: "Spot On Solutions",
+  authors: [{ name: "Warsal" }],
+  creator: "Warsal",
+  publisher: "Warsal",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Spot On Solutions | Portfolio",
+    title: "Warsal | Portfolio",
     description:
-      "Portfolio of branding, packaging, and digital design work by Spot On Solutions.",
+      "Portfolio of branding, packaging, and digital design work by Warsal.",
     url: "https://spotonportfolio.example",
-    siteName: "Spot On Solutions",
+    siteName: "Warsal",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Spot On Solutions | Portfolio",
+    title: "Warsal | Portfolio",
     description:
       "Premium graphic design portfolio showcasing branding, packaging, social media, and digital creative work.",
   },
@@ -62,7 +62,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body
         suppressHydrationWarning
-        className="flex min-h-full flex-col bg-[#0a0a0f] text-white"
+        className="flex min-h-full flex-col bg-[#0a0a0f] text-black"
       >
         {children}
       </body>

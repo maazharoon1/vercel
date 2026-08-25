@@ -54,16 +54,16 @@ const Hero = () => {
               {/* Heading */}
               <motion.h3
                 variants={item}
-                className="text-5xl font-medium tracking-tight text-white  md:text-6xl lg:text-7xl"
+                className="text-5xl font-medium tracking-tight text-black  md:text-6xl lg:text-7xl"
               >
                 <motion.span
                   className="block "
                 >
-                  Spot On Solutions
+                  Warsal
                 </motion.span>
 
                 <motion.span
-                  className="block font-thin  text-[#681e99] "
+                  className="block font-thin  text-[#01d2d1] "
                   whileHover={{ x: 12 }}
                   transition={{ duration: 0.25 }}
                 >
@@ -74,9 +74,9 @@ const Hero = () => {
               {/* Description */}
               <motion.p
                 variants={item}
-                className=" text-md md:max-w-lg md:text-xl  leading-6 text-gray-400 sm:text-base"
+                className=" text-md md:max-w-lg md:text-xl max-w-11/12 mr-auto  md:mx-0 leading-6 text-gray-400 sm:text-base"
               >
-              SPOT ON EVERYTIME !!!
+              We build powerful digital solutions for your brand through smart design, seamless web tools, and standout visual content.
               </motion.p>
 
               {/* Avatar / CTA */}
@@ -90,13 +90,15 @@ const Hero = () => {
             hidden 
             md:block
               absolute
-              inset-x-0
+              
+              inset-x-1
               bottom-0
-              -top-20
+              -top-18
               z-0
-              h-full
+              min-h-screen
+
               w-full
-              opacity-40
+              opacity-10
               md:right-0
               md:left-auto
               
@@ -128,14 +130,14 @@ const Hero = () => {
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               maskImage:
-                "linear-gradient(to right, transparent 0%, black 35%, black 100%)",
+                "linear-gradient(to right, transparent 0%, white 35%, black 100%)",
               WebkitMaskImage:
-                "linear-gradient(to right, transparent 0%, black 35%, black 100%)",
+                "linear-gradient(to right, transparent 0%, white 35%, black 100%)",
             }}
           />
 
           {/* Purple Ambient Glow */}
-          {/* <motion.div
+          <motion.div
             className="pointer-events-none absolute right-[15%] top-[25%] z-0 h-72 w-72 rounded-full bg-[#681e99]/10 blur-[120px]"
             animate={{
               scale: [1, 1.15, 1],
@@ -146,29 +148,10 @@ const Hero = () => {
               repeat: Infinity,
               ease: "easeInOut",
             }}
-          /> */}
+          />
 
           {/* Bottom Scroll Indicator */}
-          <motion.div
-            className="absolute bottom-8 left-10 hidden items-center gap-3 text-[10px] uppercase tracking-[0.3em] text-white/40 sm:flex"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.8, duration: 0.8 }}
-          >
-            <motion.span
-              className="h-8 w-px bg-white/30"
-              animate={{
-                scaleY: [0.4, 1, 0.4],
-              }}
-              transition={{
-                duration: 2,
-                repeat: Infinity,
-                ease: "easeInOut",
-              }}
-            />
-
-            Scroll to explore
-          </motion.div>
+       
         </div>
       </main>
     </div>

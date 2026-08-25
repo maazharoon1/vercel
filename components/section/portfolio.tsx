@@ -42,7 +42,7 @@ function Portfolio() {
   return (
     <section className="relative w-full overflow-hidden">
       {/* Ambient Background Glow */}
-      <div
+      {/* <div
         className="
           pointer-events-none
           absolute
@@ -57,7 +57,7 @@ function Portfolio() {
           blur-[120px]
           opacity-60
         "
-      />
+      /> */}
 
       <div className="mx-auto w-full max-w-350 px-4 sm:px-6 lg:px-8">
 
@@ -85,18 +85,18 @@ function Portfolio() {
         >
           {/* Small Label */}
           <motion.div
-            className="mb-2 flex items-center gap-3 text-[10px] uppercase tracking-[0.3em] text-purple-400"
+            className="mb-2 flex items-center gap-3 text-[10px] uppercase tracking-[0.3em] text-[#01d2d1]"
             initial={{ opacity: 0, x: -15 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.15, duration: 0.5 }}
           >
-            <span className="h-px w-7 bg-[#681e99]" />
+            <span className="h-px w-7 text-[#01d2d1] bg-[#01d2d1]" />
             Selected Work
           </motion.div>
 
           <motion.h2
-            className="max-w-xl text-2xl leading-tight tracking-tight text-white sm:text-3xl"
+            className="max-w-xl text-2xl leading-tight tracking-tight text-[#01d2d1] sm:text-3xl"
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -176,8 +176,8 @@ function Portfolio() {
 
               ${
                 isActive
-                  ? "border-purple-500/40 text-white"
-                  : "border-transparent text-white/50 hover:border-white/10 hover:text-white"
+                  ? "border-black text-black"
+                  : "border-transparent text-black/50 hover:border-white/10 hover:text-black"
               }
             `}
             whileHover={{
@@ -197,8 +197,8 @@ function Portfolio() {
                   z-0
                   rounded-full
                   border
-                  border-purple-500/30
-                  bg-[#681e99]/10
+                  border-white
+                  bg-[#01d2d1]/10
                   shadow-[0_0_25px_rgba(168,85,247,0.12)]
                 "
                 transition={{
@@ -215,7 +215,7 @@ function Portfolio() {
                   absolute
                   inset-0
                   rounded-full
-                  bg-white/5
+                  bg-black/5
                 "
                 initial={{ opacity: 0 }}
                 whileHover={{ opacity: 1 }}
@@ -233,7 +233,7 @@ function Portfolio() {
 
   {/* Mobile scroll indicator */}
   <div className="mt-2 flex justify-center sm:hidden">
-    <div className="relative h-[2px] w-20 overflow-hidden rounded-full bg-white/10">
+    <div className="relative h-0.5 w-20 overflow-hidden rounded-full bg-black/20">
       <motion.div
         className="
           absolute
@@ -242,7 +242,7 @@ function Portfolio() {
           h-full
           w-8
           rounded-full
-          bg-[#681e99]/70
+          bg-[#01d2d1]/70
         "
         animate={{
           x: [0, 48, 0],
@@ -266,7 +266,7 @@ function Portfolio() {
       h-[calc(100%-18px)]
       w-10
       bg-gradient-to-l
-      from-[#0a0a0f]
+      from-[#01d2d1]/20
       to-transparent
       sm:hidden
     "

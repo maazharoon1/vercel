@@ -54,12 +54,12 @@ const Video = async ({ params }: PageProps) => {
             rounded-full
             border
             border-white/10
-            bg-black/40
+            bg-white/40
             px-4
             py-2.5
             text-xs
             sm:text-sm
-            text-white/90
+            text-black/90
             backdrop-blur-xl
             shadow-lg
             shadow-black/20
@@ -107,7 +107,7 @@ const Video = async ({ params }: PageProps) => {
               md:rounded-3xl
               border
               border-white/10
-              bg-black/30
+              bg-white/30
               backdrop-blur-2xl
               shadow-2xl
               shadow-black/40
@@ -131,7 +131,7 @@ const Video = async ({ params }: PageProps) => {
                   md:rounded-2xl
                   border
                   border-white/10
-                  bg-black/60
+                  bg-white/60
                   shadow-lg
                   shadow-black/30
                 "
@@ -158,13 +158,13 @@ const Video = async ({ params }: PageProps) => {
                 md:py-0
               "
             >
-              <span className="text-[11px] sm:text-xs uppercase tracking-[0.2em] text-white/40">
+              <span className="text-[11px] sm:text-xs uppercase tracking-[0.2em] text-black/40">
                 Project
               </span>
               <h1
                 className="
                   font-semibold
-                  text-white
+                  text-black
                   leading-[1.1]
                   tracking-tight
                   text-2xl
@@ -175,16 +175,16 @@ const Video = async ({ params }: PageProps) => {
               >
                 {project.title}
               </h1>
-              <div className="mt-2 h-px w-12 bg-white/15" />
-              {project.description}
-
-                  <div className="mt-3 text-sm text-white/50">
+              <div className="mt-2 h-px w-12 text-black" />
+              <span className="text-background"> {project.description}
+</span>
+                  <div className="mt-3 text-sm text-black/50">
   If the video isn't playing,{" "} 
   <Link
     href={`https://res.cloudinary.com/hcn0f9nu/video/upload/v1786745203/${project.video}.mp4`}
     target="_blank"
     rel="noopener noreferrer"
-    className="text-purple-400 block sm:inline underline underline-offset-4 hover:text-purple-300"
+    className="text-[#01d2d1] block sm:inline underline underline-offset-4 hover:text-[#01d2d1]"
   >
     click here to watch it
   </Link>

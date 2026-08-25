@@ -31,8 +31,8 @@ export default function PortfolioVideo({
          
           className="h-full w-full object-contain"
           colors={{
-            base: "#3b1656",
-            accent: "#3b1656",
+            base: "#01d2d1",
+            accent: "#01d2d1",
           }}
           transformation={{
             videoCodec: "auto",
