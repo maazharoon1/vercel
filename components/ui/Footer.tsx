@@ -1,7 +1,4 @@
-const socials = [
-  { label: "Instagram", href: "https://www.instagram.com/thespotonsolutions" },
-  { label: "FaceBook", href: "https://www.facebook.com/people/Spot-On-Solutions/61591464913281/" },
-];
+
 
 export function Footer() {
   return (
@@ -11,32 +8,14 @@ export function Footer() {
           <p className="label-xs text-gray-800">LET&apos;S WORK TOGETHER</p>
 
           <a
-            href="mailto:Support@sos-portfolio.com"
+            href="mailto:Support@warsal-portfolio.comm"
             className="mt-4 inline-block text-[clamp(1.35rem,3vw,2.5rem)] leading-none tracking-[-0.02em] text-gray-800 transition-colors hover:text-black"
           >
-            Support@sos-portfolio.com
+            Support@warsal-portfolio.com
           </a>
         </div>
 
-        <nav aria-label="Social" className="lg:col-span-3">
-          <ul className="space-y-3">
-            {socials.map((social) => (
-              <li key={social.label}>
-                <a
-                  href={social.href}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="label-xs inline-flex items-center gap-2 text-gray-800 transition-colors hover:text-black"
-                >
-                  <span className="h-1.5 rounded-full bg-primary opacity-70" />
-                  {social.label}
-                </a>
-              </li>
-            ))}
-         
-          </ul>
-
-        </nav>
+     
 
         <div className="label-xs space-y-2 text-gray-800  lg:col-span-3">
           <p>© {new Date().getFullYear()} Warsal</p>

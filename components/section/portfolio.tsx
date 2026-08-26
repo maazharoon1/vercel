@@ -13,7 +13,7 @@ const tabs = [
   "Brand Guidelines",
   "Motion Graphics",
   // "Stationary",
-  // "UI/UX Design",
+  "UI/UX Design",
   // "Illustration",
 ];
 
@@ -102,7 +102,7 @@ function Portfolio() {
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.6 }}
           >
-            Let's Have a Look at My Portfolio
+            Let's Have a Look at our Portfolio
           </motion.h2>
 
           <motion.p
