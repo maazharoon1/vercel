@@ -20,12 +20,12 @@ export function Footer() {
         <div className="label-xs space-y-2 text-gray-800  lg:col-span-3">
           <p>© {new Date().getFullYear()} Warsal</p>
 
-           <span
+           {/* <span
           className="label-xs inline-flex items-center gap-2 text-gray-800 transition-colors hover:text-black"
          >
             +1 708 303-8353
           </span>
-          
+           */}
         </div>
         
           
