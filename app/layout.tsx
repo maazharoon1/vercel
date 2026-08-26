@@ -13,14 +13,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.warsal-portfolio.com"),
+    metadataBase: new URL("https://www.warsal-portfolio.com"),
+
   title: {
     default: "Warsal | Portfolio",
     template: "%s | Warsal",
   },
+
   description:
     "Warsal creates premium branding, motion graphics, packaging, and digital design experiences for modern businesses.",
+
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
+
   applicationName: "Warsal Portfolio",
+
   keywords: [
     "graphic designer",
     "brand identity",
@@ -40,7 +50,7 @@ export const metadata: Metadata = {
     title: "Warsal | Portfolio",
     description:
       "Portfolio of branding, packaging, and digital design work by Warsal.",
-    url: "https://spotonportfolio.example",
+    url: "https://warsal-portfolio.com",
     siteName: "Warsal",
     locale: "en_US",
     type: "website",

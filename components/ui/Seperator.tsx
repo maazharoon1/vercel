@@ -27,7 +27,7 @@ function Seperator({ className = "" }: SeperatorProps) {
           <div className="h-px w-10 bg-linear-to-r from-blue-400/50 to-transparent" />
 
           <span className="text-[9px] font-medium uppercase tracking-[0.35em] text-black/30">
-            Spot On
+            Warsal
           </span>
 
           <div className="h-px w-10 bg-linear-to-l from-[#231f20] to-transparent" />
