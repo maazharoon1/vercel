@@ -52,7 +52,7 @@ const Hero = () => {
               {/* Small Label */}
            
               {/* Heading */}
-              <motion.h3
+              <motion.h1
                 variants={item}
                 className="text-5xl font-medium tracking-tight text-black  md:text-6xl lg:text-7xl"
               >
@@ -69,7 +69,7 @@ const Hero = () => {
                 >
                   Portfolio
                 </motion.span>
-              </motion.h3>
+              </motion.h1>
 
               {/* Description */}
               <motion.p

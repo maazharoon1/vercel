@@ -1,29 +1,53 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react";
-import { motion, AnimatePresence } from "motion/react";
+import { motion } from "motion/react";
+import { useRouter } from "next/navigation";
 import PortofolioCard from "./ProjectCard";
-
-const tabs = [
-  "Motion Graphics",
-  "Logo Design",
-  "Book Cover",
-  "Social Media Post ",
-  "Packaging",
-  "Flyers & Brochures",
-  "Brand Guidelines",
-  // "Stationary",
-  "UI/UX Design",
-  // "Illustration",
-];
+import {
+  defaultPortfolioCategory,
+  getPortfolioCategoryFromHash,
+  portfolioCategories,
+  type PortfolioCategoryId,
+} from "./portfolioCategories";
 
 function Portfolio() {
-  const [activeTab, setActiveTab] = useState(tabs[0]);
+  const router = useRouter();
+  const [activeTabId, setActiveTabId] = useState<PortfolioCategoryId>(
+    defaultPortfolioCategory.id
+  );
   const tabRefs = useRef<Record<string, HTMLButtonElement | null>>({});
   const tabRowRef = useRef<HTMLDivElement | null>(null);
+  const activeTab =
+    portfolioCategories.find((tab) => tab.id === activeTabId) ??
+    defaultPortfolioCategory;
 
   useEffect(() => {
-    const activeButton = tabRefs.current[activeTab];
+    const syncCategoryFromHash = (shouldScroll: boolean) => {
+      const category = getPortfolioCategoryFromHash(window.location.hash);
+
+      if (!category) return;
+
+      setActiveTabId(category.id);
+
+      if (shouldScroll) {
+        document.getElementById("portfolio")?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
+    };
+
+    syncCategoryFromHash(true);
+
+    const handleHashChange = () => syncCategoryFromHash(true);
+    window.addEventListener("hashchange", handleHashChange);
+
+    return () => window.removeEventListener("hashchange", handleHashChange);
+  }, []);
+
+  useEffect(() => {
+    const activeButton = tabRefs.current[activeTab.id];
     const container = tabRowRef.current;
 
     if (!activeButton || !container) return;
@@ -37,7 +61,17 @@ function Portfolio() {
       left: Math.max(0, desiredLeft),
       behavior: "smooth",
     });
-  }, [activeTab]);
+  }, [activeTab.id]);
+
+  function handleTabClick(categoryId: PortfolioCategoryId) {
+    setActiveTabId(categoryId);
+
+    if (window.location.hash === `#${categoryId}`) {
+      return;
+    }
+
+    router.push(`#${categoryId}`);
+  }
 
   return (
     <section className="relative w-full overflow-hidden">
@@ -102,7 +136,7 @@ function Portfolio() {
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.6 }}
           >
-            Let's Have a Look at our Portfolio
+            Selected graphic design work
           </motion.h2>
 
           <motion.p
@@ -112,8 +146,8 @@ function Portfolio() {
             viewport={{ once: true }}
             transition={{ delay: 0.3, duration: 0.6 }}
           >
-            A curated collection of visual work across branding,
-            illustration, and digital experiences.
+            Explore selected branding, logo, packaging, motion graphics,
+            social media, and UI/UX projects by Warsal.
           </motion.p>
         </motion.div>
 
@@ -144,20 +178,21 @@ function Portfolio() {
     "
   >
     <div className="flex min-w-max gap-2 px-1">
-      {tabs.map((tab, index) => {
-        const isActive = tab === activeTab;
+      {portfolioCategories.map((tab) => {
+        const isActive = tab.id === activeTab.id;
 
         return (
           <motion.button
             ref={(node) => {
-              tabRefs.current[tab] = node;
+              tabRefs.current[tab.id] = node;
             }}
-            key={tab}
+            key={tab.id}
+            id={`tab-${tab.id}`}
             type="button"
             role="tab"
             aria-selected={isActive}
-            aria-controls={`panel-${tab}`}
-            onClick={() => setActiveTab(tab)}
+            aria-controls={`panel-${tab.id}`}
+            onClick={() => handleTabClick(tab.id)}
             className={`
               relative
               shrink-0
@@ -223,7 +258,7 @@ function Portfolio() {
             )}
 
             <span className="relative z-10">
-              {tab}
+              {tab.label}
             </span>
           </motion.button>
         );
@@ -265,7 +300,7 @@ function Portfolio() {
       top-0
       h-[calc(100%-18px)]
       w-10
-      bg-gradient-to-l
+      bg-linear-to-l
       from-[#01d2d1]/20
       to-transparent
       sm:hidden
@@ -294,9 +329,11 @@ function Portfolio() {
             ease: [0.22, 1, 0.36, 1],
           }}
         >
-          <AnimatePresence mode="wait">
             <motion.div
-              key={activeTab}
+              key={activeTab.id}
+              id={`panel-${activeTab.id}`}
+              role="tabpanel"
+              aria-labelledby={`tab-${activeTab.id}`}
               initial={{
                 opacity: 0,
                 y: 15,
@@ -313,9 +350,8 @@ function Portfolio() {
                 duration: 0.35,
               }}
             >
-              <PortofolioCard activeTab={activeTab} />
+              <PortofolioCard activeFilter={activeTab.projectFilter} />
             </motion.div>
-          </AnimatePresence>
         </motion.div>
 
       </div>

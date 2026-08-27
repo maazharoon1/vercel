@@ -12,7 +12,7 @@ const Header = () => {
   {/* Logo */}
   <a href="#home" className="shrink-0">
     <Image
-      alt="SPOT ON LOGO"
+      alt="Warsal logo"
     src="/Hero2.png"
       width={100}
       height={100}

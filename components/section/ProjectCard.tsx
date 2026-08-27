@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import ImagePopup from "../ui/ImagePopup";
 import { useRouter } from "next/navigation";
 
-function PortfolioCard({ activeTab } : { activeTab : string}) {
+function PortfolioCard({ activeFilter }: { activeFilter: string }) {
   const [popupId, setPopupId] = useState<string | null>(null);
 const router = useRouter()
   // Mobile pagination
@@ -15,7 +15,7 @@ const router = useRouter()
   const [isDesktop, setIsDesktop] = useState(false);
 
   const filteredProjects = ProjectObject.filter(
-    (project) => activeTab === project.filter
+    (project) => activeFilter === project.filter
   );
 
   useEffect(() => {
@@ -28,11 +28,6 @@ const router = useRouter()
 
     return () => window.removeEventListener("resize", updateViewport);
   }, []);
-
-  // Reset Load More when category changes
-  useEffect(() => {
-    setVisibleCount(6);
-  }, [activeTab]);
 
   const visibleProjects = isDesktop
     ? filteredProjects
@@ -106,7 +101,7 @@ const router = useRouter()
               >
                 <CldImage
                   src={Project.mainImage}
-                  alt={Project.title}
+                  alt={`${Project.title.trim()} ${Project.filter.trim()} project`}
                   fill
                   sizes="(max-width: 768px) 50vw, (max-width: 1280px) 33vw, 20vw"
                   quality="auto"
@@ -198,7 +193,7 @@ const router = useRouter()
                         : undefined
                     }
                   >
-                    {Project.title}
+                    {Project.title.trim()}
                   </motion.p>
 
                   <p

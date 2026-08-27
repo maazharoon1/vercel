@@ -1,0 +1,57 @@
+export const portfolioCategories = [
+  { id: "motiongraphics", label: "Motion Graphics", projectFilter: "Motion Graphics" },
+  { id: "logodesign", label: "Logo Design", projectFilter: "Logo Design" },
+  { id: "bookcover", label: "Book Cover", projectFilter: "Book Cover" },
+  {
+    id: "socailmediapost",
+    label: "Social Media Post",
+    projectFilter: "Social Media Post ",
+    aliases: ["socialmediapost"],
+  },
+  { id: "packaging", label: "Packaging", projectFilter: "Packaging" },
+  {
+    id: "flyernbrochures",
+    label: "Flyers & Brochures",
+    projectFilter: "Flyers & Brochures",
+    aliases: ["flyersandbrochures"],
+  },
+  {
+    id: "brandguidlines",
+    label: "Brand Guidelines",
+    projectFilter: "Brand Guidelines",
+    aliases: ["brandguidelines"],
+  },
+  {
+    id: "uiuxdesign",
+    label: "UI/UX Design",
+    projectFilter: "UI/UX Design",
+    aliases: ["uiux"],
+  },
+] as const;
+
+export type PortfolioCategory = (typeof portfolioCategories)[number];
+export type PortfolioCategoryId = PortfolioCategory["id"];
+
+export const defaultPortfolioCategory = portfolioCategories[0];
+
+const categoriesByHash = new Map<string, PortfolioCategory>();
+
+for (const category of portfolioCategories) {
+  categoriesByHash.set(category.id, category);
+
+  if ("aliases" in category) {
+    for (const alias of category.aliases) {
+      categoriesByHash.set(alias, category);
+    }
+  }
+}
+
+export function getPortfolioCategoryFromHash(hash: string) {
+  const normalizedHash = hash.replace(/^#/, "").toLowerCase();
+
+  if (normalizedHash === "portfolio") {
+    return defaultPortfolioCategory;
+  }
+
+  return categoriesByHash.get(normalizedHash);
+}

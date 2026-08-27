@@ -12,8 +12,6 @@ export default function PortfolioVideo({
   id,
   mainImage,
 }: PortfolioVideoProps) {
-  console.log("id: "+id )
-  console.log("mainImage: "+  mainImage)
   return (
     <div className="flex ">
       <div

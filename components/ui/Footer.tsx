@@ -8,7 +8,7 @@ export function Footer() {
           <p className="label-xs text-gray-800">LET&apos;S WORK TOGETHER</p>
 
           <a
-            href="mailto:Support@warsal-portfolio.comm"
+            href="mailto:Support@warsal-portfolio.com"
             className="mt-4 inline-block text-[clamp(1.35rem,3vw,2.5rem)] leading-none tracking-[-0.02em] text-gray-800 transition-colors hover:text-black"
           >
             Support@warsal-portfolio.com

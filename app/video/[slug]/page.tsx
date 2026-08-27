@@ -1,7 +1,11 @@
 import Background from "@/components/ui/background";
 import PortfolioVideo from "@/components/ui/VideoPlayer";
 import { ProjectObject } from "@/libs/projectVariable";
+import type { Metadata } from "next";
 import Link from "next/link";
+import { notFound } from "next/navigation";
+
+const baseUrl = "https://www.warsal-portfolio.com";
 
 interface PageProps {
   params: Promise<{
@@ -9,15 +13,45 @@ interface PageProps {
   }>;
 }
 
+export function generateStaticParams() {
+  return ProjectObject.filter((project) => project.type === "video").map(
+    (project) => ({ slug: project.id })
+  );
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const project = ProjectObject.find(
+    (item) => item.id.toLowerCase() === slug.toLowerCase() && item.type === "video"
+  );
+
+  if (!project) {
+    return { title: "Video Not Found" };
+  }
+
+  return {
+    title: project.title.trim(),
+    description: project.description?.trim() ?? "",
+    alternates: { canonical: `/video/${project.id}` },
+    openGraph: {
+      title: project.title.trim(),
+      description: project.description?.trim() ?? "",
+      url: `${baseUrl}/video/${project.id}`,
+      type: "video.other",
+      images: [{ url: "/Hero2.png", alt: `${project.title.trim()} project preview` }],
+    },
+  };
+}
+
 const Video = async ({ params }: PageProps) => {
   const { slug } = await params;
 
   const project = ProjectObject.find(
-    (item) => item.id.toLowerCase() === slug.toLowerCase()
+    (item) => item.id.toLowerCase() === slug.toLowerCase() && item.type === "video"
   );
 
   if (!project) {
-    return <div>Video not found</div>;
+    notFound();
   }
 
   return (
@@ -40,7 +74,7 @@ const Video = async ({ params }: PageProps) => {
       `}</style>
 
       <div className="relative min-h-screen overflow-x-hidden">
-        <a
+        <Link
           href="/"
           className="
             group
@@ -77,7 +111,7 @@ const Video = async ({ params }: PageProps) => {
             ←
           </span>
           Back
-        </a>
+        </Link>
 
         <div
           className="
@@ -179,7 +213,7 @@ const Video = async ({ params }: PageProps) => {
               <span className="text-background"> {project.description}
 </span>
                   <div className="mt-3 text-sm text-black/50">
-  If the video isn't playing,{" "} 
+                  If the video isn&apos;t playing,{" "} 
   <Link
     href={`https://res.cloudinary.com/hcn0f9nu/video/upload/v1786745203/${project.video}.mp4`}
     target="_blank"

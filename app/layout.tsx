@@ -13,15 +13,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://www.warsal-portfolio.com"),
+  metadataBase: new URL("https://www.warsal-portfolio.com"),
 
   title: {
-    default: "Warsal | Portfolio",
+    default: "Warsal | Graphic Design Portfolio",
     template: "%s | Warsal",
   },
 
   description:
-    "Warsal creates premium branding, motion graphics, packaging, and digital design experiences for modern businesses.",
+    "Warsal's graphic design portfolio featuring brand identity, logo design, packaging, motion graphics, social media, and UI/UX work.",
 
   icons: {
     icon: "/icon.svg",
@@ -47,19 +47,26 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Warsal | Portfolio",
+    title: "Warsal | Graphic Design Portfolio",
     description:
-      "Portfolio of branding, packaging, and digital design work by Warsal.",
-    url: "https://warsal-portfolio.com",
-    siteName: "Warsal",
+      "Explore Warsal's branding, packaging, motion graphics, and digital design work.",
+    url: "https://www.warsal-portfolio.com/",
+    siteName: "Warsal Portfolio",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/Hero2.png",
+        alt: "Warsal graphic design portfolio logo",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Warsal | Portfolio",
+    title: "Warsal | Graphic Design Portfolio",
     description:
-      "Premium graphic design portfolio showcasing branding, packaging, social media, and digital creative work.",
+      "Brand identity, packaging, motion graphics, social media, and UI/UX work by Warsal.",
+    images: ["/Hero2.png"],
   },
 };
 

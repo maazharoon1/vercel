@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://warsal-portfolio.com/sitemap.xml",
+    sitemap: "https://www.warsal-portfolio.com/sitemap.xml",
   };
 }
