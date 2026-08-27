@@ -107,7 +107,7 @@ const router = useRouter()
                   quality="auto"
                   format="auto"
                   loading="lazy"
-                  className={`h-full w-full ${Project.type =="pdf" ? " " : " object-cover"}`}
+                  className={`h-full w-full ${Project.type =="pdf" ? "object-contain " : " object-cover"}`}
                 />
               </motion.div>
 
