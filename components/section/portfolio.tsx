@@ -5,13 +5,13 @@ import { motion, AnimatePresence } from "motion/react";
 import PortofolioCard from "./ProjectCard";
 
 const tabs = [
+  "Motion Graphics",
   "Logo Design",
   "Book Cover",
   "Social Media Post ",
   "Packaging",
   "Flyers & Brochures",
   "Brand Guidelines",
-  "Motion Graphics",
   // "Stationary",
   "UI/UX Design",
   // "Illustration",
