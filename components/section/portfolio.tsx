@@ -1,6 +1,11 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react";
+import {
+  useEffect,
+  useRef,
+  useState,
+  type WheelEvent,
+} from "react";
 import { motion } from "motion/react";
 import { useRouter } from "next/navigation";
 import PortofolioCard from "./ProjectCard";
@@ -73,25 +78,32 @@ function Portfolio() {
     router.push(`#${categoryId}`);
   }
 
+  function handleTabWheel(event: WheelEvent<HTMLDivElement>) {
+    const container = event.currentTarget;
+
+    if (
+      container.scrollWidth <= container.clientWidth ||
+      Math.abs(event.deltaX) >= Math.abs(event.deltaY)
+    ) {
+      return;
+    }
+
+    const isScrollingRight = event.deltaY > 0;
+    const isAtStart = container.scrollLeft <= 0;
+    const isAtEnd =
+      container.scrollLeft + container.clientWidth >= container.scrollWidth - 1;
+
+    if ((isScrollingRight && isAtEnd) || (!isScrollingRight && isAtStart)) {
+      return;
+    }
+
+    event.preventDefault();
+    container.scrollBy({ left: event.deltaY, behavior: "auto" });
+  }
+
   return (
     <section className="relative w-full overflow-hidden">
-      {/* Ambient Background Glow */}
-      {/* <div
-        className="
-          pointer-events-none
-          absolute
-          left-1/2
-          top-20
-          -z-10
-          h-72
-          w-72
-          -translate-x-1/2
-          rounded-full
-          bg-[#681e99]/10
-          blur-[120px]
-          opacity-60
-        "
-      /> */}
+  
 
       <div className="mx-auto w-full max-w-350 px-4 sm:px-6 lg:px-8">
 
@@ -164,12 +176,15 @@ function Portfolio() {
     ref={tabRowRef}
     role="tablist"
     aria-label="Portfolio categories"
+    onWheel={handleTabWheel}
     className="
       flex
       w-full
       gap-2
       overflow-x-auto
+      overscroll-x-contain
       pb-2
+      lg:cursor-ew-resize
       scrollbar-none
       [-ms-overflow-style:none]
       [&::-webkit-scrollbar]:hidden
@@ -266,8 +281,8 @@ function Portfolio() {
     </div>
   </div>
 
-  {/* Mobile scroll indicator */}
-  <div className="mt-2 flex justify-center sm:hidden">
+  {/* Scroll indicator */}
+  <div className="mt-2 flex justify-center">
     <div className="relative h-0.5 w-20 overflow-hidden rounded-full bg-black/20">
       <motion.div
         className="
@@ -303,7 +318,6 @@ function Portfolio() {
       bg-linear-to-l
       from-[#01d2d1]/20
       to-transparent
-      sm:hidden
     "
   />
 </motion.div>

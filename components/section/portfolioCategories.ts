@@ -27,6 +27,18 @@ export const portfolioCategories = [
     projectFilter: "UI/UX Design",
     aliases: ["uiux"],
   },
+   {
+    id: "emotes",
+    label: "Emotes",
+    projectFilter: "Emotes",
+    aliases: ["uiemotesux"],
+  },
+   {
+    id: "overlay",
+    label: "Overlay",
+    projectFilter: "Overlay",
+    aliases: ["overlay"],
+  },
 ] as const;
 
 export type PortfolioCategory = (typeof portfolioCategories)[number];

@@ -19,6 +19,8 @@ const structuredData = {
         "Packaging design",
         "Motion graphics",
         "UI/UX design",
+        "Emotes",
+        "OverLay"
       ],
     },
     {

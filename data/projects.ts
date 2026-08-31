@@ -6,7 +6,9 @@ export type ProjectCategory =
   | "Flyers & Brochures"
   | "Brand Guidelines"
   | "UI/UX Design"
-  | "Motion Graphics";
+  | "Motion Graphics"
+  | "Emotes "
+  ;
 
 export interface Project {
   id: string;
@@ -28,6 +30,7 @@ export const projectCategories: ProjectCategory[] = [
   "Brand Guidelines",
   "UI/UX Design",
   "Motion Graphics",
+  "Emotes "
 ];
 
 export const projects: Project[] = [];

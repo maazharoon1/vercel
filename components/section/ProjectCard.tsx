@@ -85,7 +85,8 @@ const router = useRouter()
                 cursor-pointer
                 overflow-hidden
                 rounded-lg
-                bg-neutral-900
+                bg-transparent
+                backdrop-blur-xl
                 md:rounded-xl
               "
               whileHover={{ y: -4, scale: 1.01 }}
@@ -107,7 +108,7 @@ const router = useRouter()
                   quality="auto"
                   format="auto"
                   loading="lazy"
-                  className={`h-full w-full ${Project.type =="pdf" ? "object-contain " : " object-cover"}`}
+                  className={`h-full w-full ${Project.type == "pdf" || Project.filter == "Emotes" || Project.filter == "Overlay" ? "object-contain " : " object-cover" }`}
                 />
               </motion.div>
 
@@ -193,7 +194,9 @@ const router = useRouter()
                         : undefined
                     }
                   >
-                    {Project.title.trim()}
+                   {["Brand Guidelines", "Emotes", "Overlay"].includes(Project.filter)
+  ? ""
+  : Project.title.trim()}
                   </motion.p>
 
                   <p
