@@ -21,7 +21,7 @@ export const portfolioCategories = [
     projectFilter: "Brand Guidelines",
     aliases: ["brandguidelines"],
   },
-  { id: "motiongraphics", label: "Motion Graphics", projectFilter: "Motion Graphics" },
+  { id: "motiongraphics", label: "3d animations", projectFilter: "3d animations" },
   {
     id: "uiuxdesign",
     label: "UI/UX Design",

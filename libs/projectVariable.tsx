@@ -1132,10 +1132,10 @@ description:
     "In this 3D rendering, there is a lively e-commerce website that is literally streaming out of a computer screen in waves. The focus of the design here is on the strong use of colors and clean typography in a surrealist minimalist environment.",
   mainImage: "U12",
 },
-// Motion Graphics
+// 3d animations
 {
   title: "Spacer Candy ",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "SpacerToffeeAd",
   mainImage: "TH01",
@@ -1152,7 +1152,7 @@ description:
 
 {
   title: "Dettol ",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V6",
   mainImage: "TH06",
@@ -1163,7 +1163,7 @@ description:
 },
 {
   title: "EcoStar ",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V7",
   mainImage: "TH07",
@@ -1174,7 +1174,7 @@ description:
 },
 {
   title: "Giggly Opus",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V14",
   mainImage: "TH14",
@@ -1189,28 +1189,28 @@ description:
 
 {
   title: "Master ",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V11",
   mainImage: "TH16",
   video: "V11",
   coverImages: [],
-description: "A professional 3D animation demonstrating unique sleep technologies of the Master Molty CoolGel mattress using cross-sectional illustrations and motion graphics. The project features a clean and technical visual style to emphasize ergonomics and cooling properties of the product."
+description: "A professional 3D animation demonstrating unique sleep technologies of the Master Molty CoolGel mattress using cross-sectional illustrations and 3d animations. The project features a clean and technical visual style to emphasize ergonomics and cooling properties of the product."
 },
 {
   title: "Bisconni Novita",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V12",
   mainImage: "TH12",
   video: "V12",
   coverImages: [],
 description:
-  "A dynamic 3D commercial for Novita wafers with motion graphics and animations designed to reflect the product's unique crunch and diversity in flavors. This project reflects a modern and daring brand identity via dynamic typography and visuals.",
+  "A dynamic 3D commercial for Novita wafers with 3d animations and animations designed to reflect the product's unique crunch and diversity in flavors. This project reflects a modern and daring brand identity via dynamic typography and visuals.",
 },
 {
   title: "Giggly Opus Bar",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V13",
   mainImage: "TH13",
@@ -1222,7 +1222,7 @@ description:
 
 {
   title: "3D Product Visualization",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V15",
   mainImage: "TH15",
@@ -1232,7 +1232,7 @@ description: "A collection of high-end CGI animations of Bisconni and Dairy Life
 },
 {
   title: " Engine Mechanisms",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V16",
   mainImage: "TH11",
@@ -1242,7 +1242,7 @@ description: "An impressive 3D technical animation demonstrating the mechanical 
 },
 {
   title: "Energy Drink ",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V17",
   mainImage: "TH17",
@@ -1253,19 +1253,19 @@ description:
 },
 {
   title: "Power Plus",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V18",
   mainImage: "TH18",
   video: "V18",
   coverImages: [],
 description:
-  "An exciting 3D animated commercial intended to emphasize the reliability and high performance of Power Plus batteries. The project features sophisticated product visualization and modern motion graphics creating an image of a hi-tech brand characterized by durability and energy efficiency."
+  "An exciting 3D animated commercial intended to emphasize the reliability and high performance of Power Plus batteries. The project features sophisticated product visualization and modern 3d animations creating an image of a hi-tech brand characterized by durability and energy efficiency."
 },
 
 {
   title: "Salmedia.us",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V20",
   mainImage: "TH20",
@@ -1276,21 +1276,21 @@ description:
 },
 {
   title: "Haier",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V8",
   mainImage: "TH08",
   video: "V08",
   coverImages: [],
 description:
-  "An elegant 3D product animation of Haier Puri Inverter AC which features high-tech capabilities such as air purification, connectivity, and energy efficiency. This project makes use of high-definition motion graphics and visual overlays to communicate the product benefits effectively.",
+  "An elegant 3D product animation of Haier Puri Inverter AC which features high-tech capabilities such as air purification, connectivity, and energy efficiency. This project makes use of high-definition 3d animations and visual overlays to communicate the product benefits effectively.",
 },
 
 //   video: "V21",
 
 {
   title: " Shangrila Sauces",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V22",
   mainImage: "TH22",
@@ -1302,29 +1302,29 @@ description:
 // https://res.cloudinary.com/hcn0f9nu/image/upload/v1787004363/.jpg
 {
   title: "SEGO",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V23",
   mainImage: "TH23",
   video: "V23",
   coverImages: [],
 description:
-  "3D promo video with a great effect, presenting the attractive design and impressive hardware of the SEGO S PAD 4G tablet. Employing a sci-fi style along with motion graphics, this video project accentuates the technical advantages of the device, making it stand out among other products in this segment.",
+  "3D promo video with a great effect, presenting the attractive design and impressive hardware of the SEGO S PAD 4G tablet. Employing a sci-fi style along with 3d animations, this video project accentuates the technical advantages of the device, making it stand out among other products in this segment.",
 },
 {
   title: "Sheikhoo Steel",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V24",
   mainImage: "TH24",
   video: "V24",
   coverImages: [],
 description:
-  "A visually impactful 3D animation logo showcase that portrays the industrial strength of the steel making process through realistic molten metal elements and particle effects. The project uses motion graphics to build an influential and professional brand identity for the leading manufacturer of steel products.",
+  "A visually impactful 3D animation logo showcase that portrays the industrial strength of the steel making process through realistic molten metal elements and particle effects. The project uses 3d animations to build an influential and professional brand identity for the leading manufacturer of steel products.",
 },
 {
   title: "Sucral",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V25",
   mainImage: "TH25",
@@ -1334,7 +1334,7 @@ description:
   " A high-quality 3D product visualization of the whole packaging series for Sucral zero-calorie sweetener products. The design features include high-fidelity renderings with a clean look that fits the branding of the product line."
 },
 {
-  filter: "Motion Graphics",
+  filter: "3d animations",
   title: "Detroit Giant",
   type:"video",
   id: "video4",
@@ -1345,7 +1345,7 @@ description:
 },
 {
   title: 'Sunsilk "Super-mix" ',
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V26",
   mainImage: "TH26",
@@ -1356,7 +1356,7 @@ description:
 },
 {
   title: " Sucral Sweetener",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V27",
   mainImage: "TH27",
@@ -1367,7 +1367,7 @@ description:
 },
 {
   title: "White Pearl",
-  filter: "Motion Graphics",
+  filter: "3d animations",
   type:"video",
   id: "V28",
   mainImage: "TH28",
@@ -1377,7 +1377,7 @@ description:
   "A fast-paced 3D product animation video focusing on the refreshing properties of White Pearl's sparkling coconut water by means of dynamic graphics and lively visuals. This video demonstrates the premium quality and naturalness of the product with the help of professional liquid simulations and vivid environment effects.",
 },
 {
-  filter: "Motion Graphics",
+  filter: "3d animations",
   title: " Ideas Summer Sale",
   type:"video",
   id: "video2",
@@ -1385,7 +1385,7 @@ description:
   video:"CGI_Ideas_V1_4x5",
   coverImages: [],
    description:
-    " A visually appealing social media campaign created for Gul Ahmed's retail brand with hyper-realistic 3D product integration and motion graphics. This project involves immersive CGI storytelling to provide an intriguing promotion for the brand's biggest annual e-commerce event.",
+    " A visually appealing social media campaign created for Gul Ahmed's retail brand with hyper-realistic 3D product integration and 3d animations. This project involves immersive CGI storytelling to provide an intriguing promotion for the brand's biggest annual e-commerce event.",
 },
 
 // Emotes
