@@ -1,5 +1,5 @@
 export const portfolioCategories = [
-  { id: "motiongraphics", label: "Motion Graphics", projectFilter: "Motion Graphics" },
+
   { id: "logodesign", label: "Logo Design", projectFilter: "Logo Design" },
   { id: "bookcover", label: "Book Cover", projectFilter: "Book Cover" },
   {
@@ -21,19 +21,20 @@ export const portfolioCategories = [
     projectFilter: "Brand Guidelines",
     aliases: ["brandguidelines"],
   },
+  { id: "motiongraphics", label: "Motion Graphics", projectFilter: "Motion Graphics" },
   {
     id: "uiuxdesign",
     label: "UI/UX Design",
     projectFilter: "UI/UX Design",
     aliases: ["uiux"],
   },
-   {
+  {
     id: "emotes",
     label: "Emotes",
     projectFilter: "Emotes",
     aliases: ["uiemotesux"],
   },
-   {
+  {
     id: "overlay",
     label: "Overlay",
     projectFilter: "Overlay",
