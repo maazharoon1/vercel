@@ -158,7 +158,7 @@ function Portfolio() {
             viewport={{ once: true }}
             transition={{ delay: 0.3, duration: 0.6 }}
           >
-            Explore selected branding, logo, packaging, 3d animations,
+            Explore selected branding, logo, packaging, 3D Animations,
             social media, and UI/UX projects by Warsal.
           </motion.p>
         </motion.div>

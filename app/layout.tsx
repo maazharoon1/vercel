@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
 
   description:
-    "Warsal's graphic design portfolio featuring brand identity, logo design, packaging, 3d animations, social media, and UI/UX work.",
+    "Warsal's graphic design portfolio featuring brand identity, logo design, packaging, 3D Animations, social media, and UI/UX work.",
 
   icons: {
     icon: "/icon.svg",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     "logo design",
     "packaging design",
     "social media design",
-    "3d animations",
+    "3D Animations",
   ],
   authors: [{ name: "Warsal" }],
   creator: "Warsal",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Warsal | Graphic Design Portfolio",
     description:
-      "Explore Warsal's branding, packaging, 3d animations, and digital design work.",
+      "Explore Warsal's branding, packaging, 3D Animations, and digital design work.",
     url: "https://www.warsal-portfolio.com/",
     siteName: "Warsal Portfolio",
     locale: "en_US",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Warsal | Graphic Design Portfolio",
     description:
-      "Brand identity, packaging, 3d animations, social media, and UI/UX work by Warsal.",
+      "Brand identity, packaging, 3D Animations, social media, and UI/UX work by Warsal.",
     images: ["/Hero2.png"],
   },
 };

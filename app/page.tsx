@@ -17,7 +17,7 @@ const structuredData = {
         "Brand identity",
         "Logo design",
         "Packaging design",
-        "3d animations",
+        "3D Animations",
         "UI/UX design",
         "Emotes",
         "OverLay"
