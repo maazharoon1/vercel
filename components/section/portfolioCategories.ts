@@ -8,6 +8,12 @@ export const portfolioCategories = [
     projectFilter: "Social Media Post ",
     aliases: ["socialmediapost"],
   },
+  {
+    id: "stationary",
+    label: "Stationary",
+    projectFilter: "Stationary",
+    aliases: ["stationary"],
+  },
   { id: "packaging", label: "Packaging", projectFilter: "Packaging" },
   {
     id: "flyernbrochures",

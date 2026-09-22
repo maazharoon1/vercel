@@ -2,6 +2,7 @@ export type ProjectCategory =
   | "Logo Design"
   | "Book Cover"
   | "Social Media Post"
+  | "Stationary"
   | "Packaging"
   | "Flyers & Brochures"
   | "Brand Guidelines"
@@ -26,6 +27,7 @@ export const projectCategories: ProjectCategory[] = [
   "Logo Design",
   "Book Cover",
   "Social Media Post",
+  "Stationary",
   "Packaging",
   "Flyers & Brochures",
   "Brand Guidelines",
