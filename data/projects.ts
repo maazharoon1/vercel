@@ -8,6 +8,7 @@ export type ProjectCategory =
   | "Brand Guidelines"
   | "UI/UX Design"
   | "3D Animations"
+  | "2D Animations"
   | "Emotes "
   | "OverLay"
   ;
@@ -33,6 +34,7 @@ export const projectCategories: ProjectCategory[] = [
   "Brand Guidelines",
   "UI/UX Design",
   "3D Animations",
+  "2D Animations",
   "Emotes ",
   "OverLay"
 ];

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
 
   description:
-    "Warsal's graphic design portfolio featuring brand identity, logo design, packaging, 3D Animations, social media, and UI/UX work.",
+    "Warsal's graphic design portfolio featuring brand identity, logo design, packaging, 3D Animations,2D Animations, social media, and UI/UX work.",
 
   icons: {
     icon: "/icon.svg",
@@ -39,6 +39,7 @@ export const metadata: Metadata = {
     "packaging design",
     "social media design",
     "3D Animations",
+    "2D Animations",
   ],
   authors: [{ name: "Warsal" }],
   creator: "Warsal",

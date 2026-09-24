@@ -1145,6 +1145,299 @@ description:
   " An energetic brand film combining cinematic live action with lively animated elements inspired by space themes to reflect the joyful experience of rewarding one's children. This project features an engaging brand experience via seamless transitions and artistic visualizations.",
 },
 
+// 2D Animations
+
+{
+  title: "Finding the Right Friend for Your Rabbit",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv1",
+  mainImage: "w2dv1t",
+  video: "w2dv1",
+  coverImages: [],
+  description: "An animated rabbit named Nibbles explains why social companionship is key for small pets. The video uses funny comparisons to show which animals make the best companions and which definitely don't."
+},
+{
+  title: "A Simple Guide to Feeding Your Rabbits",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv2",
+  mainImage: "w2dv2t",
+  video: "w2dv2",
+  coverImages: [],
+  description: "Two animated rabbits explore their backyard home while showing the basics of a healthy diet. The video highlights the importance of fresh hay and pellets for happy, active pets."
+},
+{
+  title: "Building the Perfect Rabbit Habitat",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv3",
+  mainImage: "w2dv3t",
+  video: "w2dv3",
+  coverImages: [],
+  description: "Two animated rabbits show how to set up a comfortable home with the right hutch, tunnels, and fresh herbs. It's a simple guide to keeping your small pets happy and active."
+},
+{
+  title: "Express Yourself with Sound Memes",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv4",
+  mainImage: "w2dv4t",
+  video: "w2dv4",
+  coverImages: [],
+  description: "This colorful ad shows how to use the Voicy app to send audio clips and memes in your favorite chats. It highlights a fun way to bring more personality to your daily messages."
+},
+{
+  title: "Automate Your Call Center with AI",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv5",
+  mainImage: "w2dv5t",
+  video: "w2dv5",
+  coverImages: [],
+  description: "This animation introduces AI RUDDER, a platform that uses voice assistants to handle high-volume repetitive calls. It shows how technology can help teams manage customer operations more efficiently."
+},
+{
+  title: "Understanding Quantum Algorithms and Circuits",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv6",
+  mainImage: "w2dv6t",
+  video: "w2dv6",
+  coverImages: [],
+  description: "Dr. Michael Hush breaks down the fundamentals of quantum computing using clear visual diagrams. The video compares electronic and quantum circuits to show how qubits process information."
+},
+{
+  title: "Smarter Team Communication with Harmony",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv7",
+  mainImage: "w2dv7t",
+  video: "w2dv7",
+  coverImages: [],
+  description: "This video demonstrates how the Harmony tool helps rewrite emails and messages for better emotional intelligence. Snappy animations show the interface in action, focusing on making digital teamwork more effective and personalized."
+},
+{
+  title: "Simplify Your HR with Bambee",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv8",
+  mainImage: "w2dv8t",
+  video: "w2dv8",
+  coverImages: [],
+  description: "This video shows how small business owners can streamline their HR tasks like onboarding and scheduling. It highlights a professional interface designed to manage complex management processes easily."
+},
+{
+  title: "Visual Guide to Corporate Performance Management",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv9",
+  mainImage: "w2dv9t",
+  video: "w2dv9",
+  coverImages: [],
+  description: "This whiteboard animation explains business management and SMART goals through simple hand-drawn illustrations. It breaks down professional concepts into easy-to-understand visuals for teams and leaders."
+},
+{
+  title: "Solving Industrial Measurement Challenges",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv10",
+  mainImage: "w2dv10t",
+  video: "w2dv10",
+  coverImages: [],
+  description: "This animation breaks down the complexities of gas measurement and data analysis using minimalist line art. It highlights how technicians and analysts manage field data and system alerts."
+},
+{
+  title: "Make Podcasting Easy with Anchor",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv11",
+  mainImage: "w2dv11t",
+  video: "w2dv11",
+  coverImages: [],
+  description: "This modern animation follows a team overcoming technical hurdles to start their own podcast. It shows how the platform simplifies the recording and publishing process for creators."
+},
+{
+  title: "Meet Ava: Your AI Sales Rep",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv12",
+  mainImage: "w2dv12t",
+  video: "w2dv12",
+  coverImages: [],
+  description: "This presentation showcases an AI assistant designed to handle lead generation and personalized outreach. It walks through the interface and features that help automate the sales process."
+},
+{
+  title: "Introduction to Avalaunch Fundraising",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv13",
+  mainImage: "w2dv13t",
+  video: "w2dv13",
+  coverImages: [],
+  description: "This motion graphics video explains how a decentralized fundraising protocol supports new projects. It walks through the platform's community values and shows the simple steps for registration and wallet setup."
+},
+{
+  title: "Smart Estimation for Modern Engineering",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv14",
+  mainImage: "w2dv14t",
+  video: "w2dv14",
+  coverImages: [],
+  description: "This animation shows how data-driven tools help manage complex infrastructure projects like wind farms and construction sites. It tracks everything from project costs to environmental impact through a streamlined interface."
+},
+{
+  title: "Streamlining Workflows with AI Assistance",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv15",
+  mainImage: "w2dv15t",
+  video: "w2dv15",
+  coverImages: [],
+  description: "This video visualizes how an AI assistant handles multiple tasks like scheduling and document management in real-time. It shows a modern way to manage complex product workflows with speed and efficiency."
+},
+{
+  title: "Understanding AI Processing Speeds",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv16",
+  mainImage: "w2dv16t",
+  video: "w2dv16",
+  coverImages: [],
+  description: "This whiteboard-style animation explains complex digital workflows using simple metaphors like snails and rabbits. It follows a professional workspace as it transitions into global data flowcharts."
+},
+{
+  title: "Retaining Anonymous Shoppers with Pushowl",
+  filter: "3D Animations",
+  type: "video",
+  id: "w2dv17",
+  mainImage: "w2dv17",
+  video: "w2dv17",
+  coverImages: [],
+  description: "A look at how personalized web push notifications help e-commerce stores engage anonymous visitors. The interface demonstrates cross-device connectivity and automated messaging for online retailers."
+},
+{
+  title: "Handling Difficult Rental Situations",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv18",
+  mainImage: "w2dv18t",
+  video: "w2dv18",
+  coverImages: [],
+  description: "This animation tells the story of a landlord dealing with unauthorized pets and lease violations. It shows how getting professional legal advice through an app can help resolve complex tenant issues."
+},
+{
+  title: "Navigating the Future of Cloud Operations",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv19",
+  mainImage: "w2dv19t",
+  video: "w2dv19",
+  coverImages: [],
+  description: "This colorful animation shows characters in a futuristic world managing data and flying through the clouds. It visualizes how modern technology makes complex operations feel efficient and seamless."
+},
+{
+  title: "Balancing Creativity and Business Finances",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv20",
+  mainImage: "w2dv20t",
+  video: "w2dv20",
+  coverImages: [],
+  description: "This video shows a creative entrepreneur managing her DIY projects while staying on top of her accounting. It highlights how intuitive software can help track expenses and budgets even during a busy workday."
+},
+{
+  title: "A Faster Way to Handle Flood Insurance",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv21",
+  mainImage: "w2dv21t",
+  video: "w2dv21",
+  coverImages: [],
+  description: "This animation uses simple line art to show the difference between traditional claims and rapid insurance payouts. It illustrates how commercial buildings can recover quickly after a flood event."
+},
+{
+  title: "Finding Your Path to Weight Loss",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv22",
+  mainImage: "w2dv22t",
+  video: "w2dv22",
+  coverImages: [],
+  description: "This vibrant animation follows a woman navigating the confusion of different diet plans before discovering a more personalized approach. It showcases an app designed to simplify health goals and track success."
+},
+{
+  title: "Reclaiming Control of Your Agency Life",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv23",
+  mainImage: "w2dv23t",
+  video: "w2dv23",
+  coverImages: [],
+  description: "A professional shares her journey from workplace chaos to organized productivity. The video highlights how using a streamlined platform helps manage a busy agency schedule with ease."
+},
+{
+  title: "Your Guide to Finding a Global Homestay",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv24",
+  mainImage: "w2dv24t",
+  video: "w2dv24",
+  coverImages: [],
+  description: "This animation walks through the process of booking a study abroad living arrangement. It follows a student from her initial research to meeting her host family in a new country."
+},
+{
+  title: "Transforming Retail with Hulexo Software",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv25",
+  mainImage: "w2dv25t",
+  video: "w2dv25",
+  coverImages: [],
+  description: "Ahmed shares how moving from manual processes to digital management has changed his business operations. The video highlights user-friendly dashboards and app integrations that help streamline retail tasks."
+},
+{
+  title: "Optimizing Your Paint Business with Data",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv26",
+  mainImage: "w2dv26t",
+  video: "w2dv26",
+  coverImages: [],
+  description: "This animation shows how a cloud-based platform connects managers and engineers to streamline operations. It follows a family's journey to buy paint while highlighting the digital tools that make the process more efficient."
+},
+{
+  title: "Celebrate Team Wins on Zoom",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv27",
+  mainImage: "w2dv27t",
+  video: "w2dv27",
+  coverImages: [],
+  description: "This video shows how teams can stay connected and recognize each other's hard work during video calls. It features a fun way to share virtual rewards and keep office morale high."
+},
+{
+  title: "Smart Investing with OpenInvest",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv28",
+  mainImage: "w2dv28t",
+  video: "w2dv28",
+  coverImages: [],
+  description: "This motion graphic walkthrough explores how to customize portfolios and manage ESG investments. It showcases a modern interface designed for clear financial reporting and personalized strategy."
+},
+{
+  title: "Smart Modular Cooling for Every Business",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv29",
+  mainImage: "w2dv29t",
+  video: "w2dv29",
+  coverImages: [],
+  description: "This animation shows how scalable cooling containers help industries manage refrigerated stock with ease. It uses clear diagrams to illustrate the efficiency of modular storage for different business sizes."
+},
+
 
 //   video:"CGI_Ideas_V1_4x5",
 

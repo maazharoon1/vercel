@@ -28,6 +28,7 @@ export const portfolioCategories = [
     aliases: ["brandguidelines"],
   },
   { id: "motiongraphics", label: "3D Animations", projectFilter: "3D Animations" },
+  { id: "2danimations", label: "2D Animations", projectFilter: "2D Animations" },
   {
     id: "uiuxdesign",
     label: "UI/UX Design",
