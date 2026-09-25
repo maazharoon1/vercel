@@ -533,7 +533,114 @@ description:
   mainImage: "D06",
   coverImages: [],
 },
+// Editorials :  Book Interior
+{
+  filter: "Editorials",
+  title: "Call Their Shots",
+  type: "image",
+  // color:"#ffbe4b",
+  id: "bookcover11",
+  description:
+    "An editorial book spread featuring a compass-inspired chapter opener and refined typography, presenting a business-focused message about giving people the tools and freedom to create their own plans.",
+  mainImage: "B11",
+  coverImages: [],
+},
 
+{
+  filter: "Editorials",
+  title: "In Memory",
+  type: "image",
+  // color:"#ffbe4b",
+  id: "bookcover12",
+  description:
+    "A vintage-inspired editorial book spread combining a haunting monochrome tree illustration with an elegant chapter layout and atmospheric storytelling.",
+  mainImage: "B12",
+  coverImages: [],
+},
+
+{
+  filter: "Editorials",
+  title: "The Woman",
+  type: "image",
+  // color:"#ffbe4b",
+  id: "bookcover13",
+  description:
+    "A minimalist editorial book design featuring a sophisticated black-and-white illustration of a woman in a hat, complemented by expressive silhouettes, birds, and decorative visual elements.",
+  mainImage: "B13",
+  coverImages: [],
+},
+
+{
+  filter: "Editorials",
+  title: "Anne",
+  type: "image",
+  // color:"#ffbe4b",
+  id: "bookcover14",
+  description:
+    "An elegant literary book spread centered around a chapter titled Anne, framed by delicate hand-drawn floral illustrations and a soft purple border.",
+  mainImage: "B14",
+  coverImages: [],
+},
+
+{
+  filter: "Editorials",
+  title: "The Journey",
+  type: "image",
+  // color:"#ffbe4b",
+  id: "bookcover15",
+  description:
+    "A literary book spread depicting a solitary journey through a dark, atmospheric landscape, with expressive monochrome illustrations integrated naturally into the surrounding narrative.",
+  mainImage: "B15",
+  coverImages: [],
+},
+
+{
+  filter: "Editorials",
+  title: "Who Is Shirkydra?",
+  type: "image",
+  // color:"#ffbe4b",
+  id: "bookcover16",
+  description:
+    "A clean editorial book spread introducing a chapter titled Who Is Shirkydra?, using bold typography, structured text columns, and a minimal monochrome visual identity.",
+  mainImage: "B16",
+  coverImages: [],
+},
+
+{
+  filter: "Editorials",
+  title: "Years Pass By",
+  type: "image",
+  // color:"#ffbe4b",
+  id: "bookcover17",
+  description:
+    "A modern editorial book spread featuring the chapter The Years Pass By, with an illustrated airplane, reflective prompts, and a structured layout exploring time and professional growth.",
+  mainImage: "B17",
+  coverImages: [],
+},
+
+{
+  filter: "Editorials",
+  title: "Common Thread",
+  type: "image",
+  // color:"#ffbe4b",
+  id: "bookcover18",
+  description:
+    "A minimalist editorial book spread built around the chapter A Common Thread, combining spacious typography, refined text composition, and a subtle thread-inspired visual element.",
+  mainImage: "B18",
+  coverImages: [],
+},
+
+{
+  filter: "Editorials",
+  title: "Acknowledgements",
+  type: "image",
+  // color:"#ffbe4b",
+  id: "bookcover19",
+  description:
+    "A refined monochrome book spread featuring an acknowledgements section, with illustrated birds resting on horizontal lines across the center of the open pages.",
+  mainImage: "B19",
+  coverImages: [],
+},
 
 //  banners : POSTERS
 {
