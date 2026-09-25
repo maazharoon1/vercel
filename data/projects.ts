@@ -3,6 +3,7 @@ export type ProjectCategory =
   | "Editorials"
   | "stationery"
   | "Banners"
+  | "Social Media Post" 
   | "Menu"
   | "Merchandise"
   | "Packaging"
@@ -14,6 +15,7 @@ export type ProjectCategory =
   | "2D Animations"
   | "Emotes "
   | "OverLay"
+
   ;
 
 export interface Project {
@@ -32,6 +34,7 @@ export const projectCategories: ProjectCategory[] = [
   "Editorials",
   "stationery",
   "Banners",
+  "Social Media Post",
   "Menu",
   "Merchandise",
   "Packaging",

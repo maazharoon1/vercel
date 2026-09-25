@@ -356,201 +356,8 @@ export const ProjectObject = [
 
 
 // Editorials : SOCIAL MEDIA POSTS, BOOK COVERS, DOCUMENTATION , POSTERS
-//  Editorials : POSTERS
-{
-  filter: "Editorials",
-  title: "Nobody Cares Until You Win",
-  type: "image",
-  id: "POSTER1",
-  description:
-    "Bold red motivational poster featuring a stylized portrait of a suited man beneath oversized black typography.",
-  mainImage: "PR01",
-  coverImages: [],
-},
-{
-  filter: "Editorials",
-  title: "Flower Head Character",
-  type: "image",
-  id: "POSTER2",
-  description:
-    "Colorful character illustration of a person with a daisy for a head, wearing a green hoodie, shorts, and sneakers.",
-  mainImage: "PR02",
-  coverImages: [],
-},
-{
-  filter: "Editorials",
-  title: "Money Collage Poster",
-  type: "image",
-  id: "POSTER3",
-  description:
-    "Black and white collage of dollar bills and torn paper with an illustrated man outlined in yellow.",
-  mainImage: "PR03",
-  coverImages: [],
-},
-{
-  filter: "Editorials",
-  title: "Martial Arts Panda Poster",
-  type: "image",
-  id: "POSTER4",
-  description:
-    "Illustrated panda in a red martial arts outfit posed against a bright red background and orange circular backdrop.",
-  mainImage: "PR04",
-  coverImages: [],
-},
-{
-  filter: "Editorials",
-  title: "Scarface Character Poster",
-  type: "image",
-  id: "POSTER5",
-  description:
-    "High contrast black and red poster with bold SCARFACE lettering and an illustrated shouting figure.",
-  mainImage: "PR05",
-  coverImages: [],
-},
-{
-  filter: "Editorials",
-  title: "Green Superhero Portrait",
-  type: "image",
-  id: "POSTER6",
-  description:
-    "Comic style close-up of a roaring green superhero against a vivid lime background.",
-  mainImage: "PR06",
-  coverImages: [],
-},
-{
-  filter: "Editorials",
-  title: "Marlboro Editorial Poster",
-  type: "image",
-  id: "POSTER7",
-  description:
-    "Illustrated seated man in a dark suit placed over oversized Marlboro typography and a white geometric background.",
-  mainImage: "PR07",
-  coverImages: [],
-},
-{
-  filter: "Editorials",
-  title: "Porsche GT3 RS Poster",
-  type: "image",
-  id: "POSTER8",
-  description:
-    "Minimal lime green automotive poster featuring a side view of a green Porsche sports car and vertical white lettering.",
-  mainImage: "PR08",
-  coverImages: [],
-},
-{
-  filter: "Editorials",
-  title: "Porsche 911 GT3 R Rennsport Poster",
-  type: "image",
-  id: "POSTER9",
-  description:
-    "Dramatic racing car poster with a red, white, and blue Porsche set against large red typography on a dark background.",
-  mainImage: "PR09",
-  coverImages: [],
-},
-{
-  filter: "Editorials",
-  title: "Cristiano Ronaldo 1000 Poster",
-  type: "image",
-  id: "POSTER10",
-  description:
-    "Football tribute poster showing Ronaldo from behind in a red number seven jersey before a stadium crowd and large 1000 lettering.",
-  mainImage: "PR10",
-  coverImages: [],
-},
-{
-  filter: "Editorials",
-  title: "Mike Tyson Boxing Poster",
-  type: "image",
-  id: "POSTER11",
-  description:
-    "Illustrated boxing portrait of Mike Tyson raising both red gloves against a clean white background.",
-  mainImage: "PR11",
-  coverImages: [],
-},
-{
-  filter: "Editorials",
-  title: "Streetwear Bear Poster",
-  type: "image",
-  id: "POSTER12",
-  description:
-    "Playful poster of a bear in a red hoodie and sunglasses standing in front of bold black motivational typography.",
-  mainImage: "PR12",
-  coverImages: [],
-},
 
-// EDITORIALS : SOCIAL MEDIA POSTS
 
-{
-  filter: "Editorials",
-  title: "Editorials",
-  type:"image",
-  id: "SocialMediaDesign1",
-description:
-"Vibrant social media promotions for a creative agency about Graphic Design, Social Media, Expert SEO, and Innovation. Includes high-energy neon visuals, 3D graphics, and powerful call-to-action designs for maximum engagement.",
-  mainImage: "S01",
-  coverImages: [],
-
-},
-{
-  filter: "Editorials",
-  title: "Editorials",
-  type:"image",
-  id: "SocialMediaDesign2",
-description:
-"Sleek and stylish social media grid centered on digital growth, strategy, and scaling. Features dynamic lighting, glowing infographics, and futuristic typography that conveys tech solutions and brand authority.",
-
-  mainImage: "S02",
-  coverImages: [],
-
-},
-{
-  filter: "Editorials",
-  title: "Editorials",
-  type:"image",
-  id: "SocialMediaDesign3",
-description:
-"Surreal and mysterious social media banner designs that include outer space scenes, flying UFOs, and other futuristic ideas. Designed with rich atmospheric lighting and cinematic visual effects to drive high engagement.",
-
-  mainImage: "S03",
-  coverImages: [],
-
-},
-{
-  filter: "Editorials",
-  title: "Editorials",
-  type:"image",
-  id: "SocialMediaDesign4",
-description:
-"Clean and stylish social media app feature posts created with floating 3D UI cards, notifications badges, and other interactive components. Perfect for SaaS platforms, mobile apps, and other tech-related businesses.",
-
-  mainImage: "S04",
-  coverImages: [],
-
-},
-{
-  filter: "Editorials",
-  title: "Editorials",
-  type:"image",
-  id: "SocialMediaDesign5",
-
-description:
-"Professional marketing creatives centered on brand reach, e-commerce growth, and VR technology. Includes corporate stock photography, stylish gradients, and clear typography.",
-  mainImage: "S05",
-  coverImages: [],
-
-},
-{
-  filter: "Editorials",
-  title: "Solar Energy App",
-  type:"image",
-  id: "SocialMediaDesign6",
- 
-description:
-"Sleek and stylish mockup design of Editorialswith mobile UI cards for a solar energy app. Created with a bright yellow and textured background to emphasize eco-friendly solutions.",
-  mainImage: "S06",
-  coverImages: [],
-
-},
 
 //  Editorials :  Book Cover 
 {
@@ -725,6 +532,202 @@ description:
     "Single-page solar energy company profile with teal panels for milestones, key metrics, services, and customer testimonials.",
   mainImage: "D06",
   coverImages: [],
+},
+
+
+//  Editorials : POSTERS
+{
+  filter: "Editorials",
+  title: "Nobody Cares Until You Win",
+  type: "image",
+  id: "POSTER1",
+  description:
+    "Bold red motivational poster featuring a stylized portrait of a suited man beneath oversized black typography.",
+  mainImage: "PR01",
+  coverImages: [],
+},
+{
+  filter: "Editorials",
+  title: "Flower Head Character",
+  type: "image",
+  id: "POSTER2",
+  description:
+    "Colorful character illustration of a person with a daisy for a head, wearing a green hoodie, shorts, and sneakers.",
+  mainImage: "PR02",
+  coverImages: [],
+},
+{
+  filter: "Editorials",
+  title: "Money Collage Poster",
+  type: "image",
+  id: "POSTER3",
+  description:
+    "Black and white collage of dollar bills and torn paper with an illustrated man outlined in yellow.",
+  mainImage: "PR03",
+  coverImages: [],
+},
+{
+  filter: "Editorials",
+  title: "Martial Arts Panda Poster",
+  type: "image",
+  id: "POSTER4",
+  description:
+    "Illustrated panda in a red martial arts outfit posed against a bright red background and orange circular backdrop.",
+  mainImage: "PR04",
+  coverImages: [],
+},
+{
+  filter: "Editorials",
+  title: "Scarface Character Poster",
+  type: "image",
+  id: "POSTER5",
+  description:
+    "High contrast black and red poster with bold SCARFACE lettering and an illustrated shouting figure.",
+  mainImage: "PR05",
+  coverImages: [],
+},
+{
+  filter: "Editorials",
+  title: "Green Superhero Portrait",
+  type: "image",
+  id: "POSTER6",
+  description:
+    "Comic style close-up of a roaring green superhero against a vivid lime background.",
+  mainImage: "PR06",
+  coverImages: [],
+},
+{
+  filter: "Editorials",
+  title: "Marlboro Editorial Poster",
+  type: "image",
+  id: "POSTER7",
+  description:
+    "Illustrated seated man in a dark suit placed over oversized Marlboro typography and a white geometric background.",
+  mainImage: "PR07",
+  coverImages: [],
+},
+{
+  filter: "Editorials",
+  title: "Porsche GT3 RS Poster",
+  type: "image",
+  id: "POSTER8",
+  description:
+    "Minimal lime green automotive poster featuring a side view of a green Porsche sports car and vertical white lettering.",
+  mainImage: "PR08",
+  coverImages: [],
+},
+{
+  filter: "Editorials",
+  title: "Porsche 911 GT3 R Rennsport Poster",
+  type: "image",
+  id: "POSTER9",
+  description:
+    "Dramatic racing car poster with a red, white, and blue Porsche set against large red typography on a dark background.",
+  mainImage: "PR09",
+  coverImages: [],
+},
+{
+  filter: "Editorials",
+  title: "Cristiano Ronaldo 1000 Poster",
+  type: "image",
+  id: "POSTER10",
+  description:
+    "Football tribute poster showing Ronaldo from behind in a red number seven jersey before a stadium crowd and large 1000 lettering.",
+  mainImage: "PR10",
+  coverImages: [],
+},
+{
+  filter: "Editorials",
+  title: "Mike Tyson Boxing Poster",
+  type: "image",
+  id: "POSTER11",
+  description:
+    "Illustrated boxing portrait of Mike Tyson raising both red gloves against a clean white background.",
+  mainImage: "PR11",
+  coverImages: [],
+},
+{
+  filter: "Editorials",
+  title: "Streetwear Bear Poster",
+  type: "image",
+  id: "POSTER12",
+  description:
+    "Playful poster of a bear in a red hoodie and sunglasses standing in front of bold black motivational typography.",
+  mainImage: "PR12",
+  coverImages: [],
+},
+// SOCIAL MEDIA POSTS
+
+{
+  filter: "socialmediapost",
+  title: "Editorials",
+  type:"image",
+  id: "SocialMediaDesign1",
+description:
+"Vibrant social media promotions for a creative agency about Graphic Design, Social Media, Expert SEO, and Innovation. Includes high-energy neon visuals, 3D graphics, and powerful call-to-action designs for maximum engagement.",
+  mainImage: "S01",
+  coverImages: [],
+
+},
+{
+  filter: "socialmediapost",
+  title: "Editorials",
+  type:"image",
+  id: "SocialMediaDesign2",
+description:
+"Sleek and stylish social media grid centered on digital growth, strategy, and scaling. Features dynamic lighting, glowing infographics, and futuristic typography that conveys tech solutions and brand authority.",
+
+  mainImage: "S02",
+  coverImages: [],
+
+},
+{
+  filter: "socialmediapost",
+  title: "Editorials",
+  type:"image",
+  id: "SocialMediaDesign3",
+description:
+"Surreal and mysterious social media banner designs that include outer space scenes, flying UFOs, and other futuristic ideas. Designed with rich atmospheric lighting and cinematic visual effects to drive high engagement.",
+
+  mainImage: "S03",
+  coverImages: [],
+
+},
+{
+  filter: "socialmediapost",
+  title: "Editorials",
+  type:"image",
+  id: "SocialMediaDesign4",
+description:
+"Clean and stylish social media app feature posts created with floating 3D UI cards, notifications badges, and other interactive components. Perfect for SaaS platforms, mobile apps, and other tech-related businesses.",
+
+  mainImage: "S04",
+  coverImages: [],
+
+},
+{
+  filter: "socialmediapost",
+  title: "Editorials",
+  type:"image",
+  id: "SocialMediaDesign5",
+
+description:
+"Professional marketing creatives centered on brand reach, e-commerce growth, and VR technology. Includes corporate stock photography, stylish gradients, and clear typography.",
+  mainImage: "S05",
+  coverImages: [],
+
+},
+{
+  filter: "socialmediapost",
+  title: "Solar Energy App",
+  type:"image",
+  id: "SocialMediaDesign6",
+ 
+description:
+"Sleek and stylish mockup design of Editorialswith mobile UI cards for a solar energy app. Created with a bright yellow and textured background to emphasize eco-friendly solutions.",
+  mainImage: "S06",
+  coverImages: [],
+
 },
 
 
