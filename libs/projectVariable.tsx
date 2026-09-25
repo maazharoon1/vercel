@@ -660,7 +660,7 @@ description:
 
 {
   filter: "socialmediapost",
-  title: "Editorials",
+  title: "Spot On",
   type:"image",
   id: "SocialMediaDesign1",
 description:
@@ -671,7 +671,7 @@ description:
 },
 {
   filter: "socialmediapost",
-  title: "Editorials",
+  title: "Spot On",
   type:"image",
   id: "SocialMediaDesign2",
 description:
@@ -683,7 +683,7 @@ description:
 },
 {
   filter: "socialmediapost",
-  title: "Editorials",
+  title: "Futuristic Ideas",
   type:"image",
   id: "SocialMediaDesign3",
 description:
@@ -695,7 +695,7 @@ description:
 },
 {
   filter: "socialmediapost",
-  title: "Editorials",
+  title: "social media app feature",
   type:"image",
   id: "SocialMediaDesign4",
 description:
@@ -707,7 +707,7 @@ description:
 },
 {
   filter: "socialmediapost",
-  title: "Editorials",
+  title: "Professional marketing creatives",
   type:"image",
   id: "SocialMediaDesign5",
 
