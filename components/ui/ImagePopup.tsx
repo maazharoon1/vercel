@@ -545,7 +545,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
                     quality="auto"
                     format="auto"
                     loading="lazy"
-                    className="object-cover"
+                    className={project.filter === "Banners" ? "object-contain" : "object-cover"}
                   />
               
                   {activeImage === index && (

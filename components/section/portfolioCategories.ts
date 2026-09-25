@@ -1,19 +1,22 @@
 export const portfolioCategories = [
 
   { id: "logodesign", label: "Logo Design", projectFilter: "Logo Design" },
-  { id: "bookcover", label: "Book Cover", projectFilter: "Book Cover" },
+  
   {
-    id: "socailmediapost",
-    label: "Social Media Post",
-    projectFilter: "Social Media Post ",
+    id: "editorials",
+    label: "Editorials",
+    projectFilter: "Editorials",
     aliases: ["socialmediapost"],
   },
   {
-    id: "stationary",
-    label: "Stationary",
-    projectFilter: "Stationary",
-    aliases: ["stationary"],
+    id: "stationery",
+    label: "Stationery",
+    projectFilter: "stationery",
+    aliases: ["stationery"],
   },
+  { id: "banners", label: "Banners", projectFilter: "Banners" },
+  { id: "menu", label: "Menu", projectFilter: "Menu" },
+  { id: "merchandise", label: "Merchandise", projectFilter: "Merchandise" },
   { id: "packaging", label: "Packaging", projectFilter: "Packaging" },
   {
     id: "flyernbrochures",
@@ -27,6 +30,7 @@ export const portfolioCategories = [
     projectFilter: "Brand Guidelines",
     aliases: ["brandguidelines"],
   },
+  { id: "pitchdeck", label: "Pitch Deck", projectFilter: "Pitch Deck" },
   { id: "motiongraphics", label: "3D Animations", projectFilter: "3D Animations" },
   { id: "2danimations", label: "2D Animations", projectFilter: "2D Animations" },
   {
