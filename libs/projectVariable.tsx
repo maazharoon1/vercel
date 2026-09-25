@@ -535,9 +535,9 @@ description:
 },
 
 
-//  Editorials : POSTERS
+//  banners : POSTERS
 {
-  filter: "Editorials",
+  filter: "Banners",
   title: "Nobody Cares Until You Win",
   type: "image",
   id: "POSTER1",
@@ -547,7 +547,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Editorials",
+  filter: "Banners",
   title: "Flower Head Character",
   type: "image",
   id: "POSTER2",
@@ -557,7 +557,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Editorials",
+  filter: "Banners",
   title: "Money Collage Poster",
   type: "image",
   id: "POSTER3",
@@ -567,7 +567,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Editorials",
+  filter: "Banners",
   title: "Martial Arts Panda Poster",
   type: "image",
   id: "POSTER4",
@@ -577,7 +577,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Editorials",
+  filter: "Banners",
   title: "Scarface Character Poster",
   type: "image",
   id: "POSTER5",
@@ -587,7 +587,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Editorials",
+  filter: "Banners",
   title: "Green Superhero Portrait",
   type: "image",
   id: "POSTER6",
@@ -597,7 +597,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Editorials",
+  filter: "Banners",
   title: "Marlboro Editorial Poster",
   type: "image",
   id: "POSTER7",
@@ -607,7 +607,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Editorials",
+  filter: "Banners",
   title: "Porsche GT3 RS Poster",
   type: "image",
   id: "POSTER8",
@@ -617,7 +617,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Editorials",
+  filter: "Banners",
   title: "Porsche 911 GT3 R Rennsport Poster",
   type: "image",
   id: "POSTER9",
@@ -627,7 +627,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Editorials",
+  filter: "Banners",
   title: "Cristiano Ronaldo 1000 Poster",
   type: "image",
   id: "POSTER10",
@@ -637,7 +637,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Editorials",
+  filter: "Banners",
   title: "Mike Tyson Boxing Poster",
   type: "image",
   id: "POSTER11",
@@ -647,7 +647,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Editorials",
+  filter: "Banners",
   title: "Streetwear Bear Poster",
   type: "image",
   id: "POSTER12",
