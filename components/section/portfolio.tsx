@@ -16,11 +16,19 @@ import {
   type PortfolioCategoryId,
 } from "./portfolioCategories";
 
+function getScrollEdges(container: HTMLDivElement) {
+  return {
+    left: container.scrollLeft > 1,
+    right: container.scrollLeft + container.clientWidth < container.scrollWidth - 1,
+  };
+}
+
 function Portfolio() {
   const router = useRouter();
   const [activeTabId, setActiveTabId] = useState<PortfolioCategoryId>(
     defaultPortfolioCategory.id
   );
+  const [scrollEdges, setScrollEdges] = useState({ left: false, right: false });
   const tabRefs = useRef<Record<string, HTMLButtonElement | null>>({});
   const tabRowRef = useRef<HTMLDivElement | null>(null);
   const activeTab =
@@ -52,6 +60,30 @@ function Portfolio() {
   }, []);
 
   useEffect(() => {
+    const container = tabRowRef.current;
+    if (!container) return;
+
+    const updateEdges = () => {
+      const next = getScrollEdges(container);
+      setScrollEdges((current) =>
+        current.left === next.left && current.right === next.right ? current : next,
+      );
+    };
+
+    const observer = new ResizeObserver(updateEdges);
+    observer.observe(container);
+    if (container.firstElementChild) observer.observe(container.firstElementChild);
+    const frame = requestAnimationFrame(updateEdges);
+
+    return () => {
+      cancelAnimationFrame(frame);
+      observer.disconnect();
+    };
+  }, []);
+
+  useEffect(() => {
+    if (window.matchMedia("(min-width: 640px)").matches) return;
+
     const activeButton = tabRefs.current[activeTab.id];
     const container = tabRowRef.current;
 
@@ -79,6 +111,8 @@ function Portfolio() {
   }
 
   function handleTabWheel(event: WheelEvent<HTMLDivElement>) {
+    if (window.matchMedia("(min-width: 640px)").matches) return;
+
     const container = event.currentTarget;
 
     if (
@@ -165,7 +199,7 @@ function Portfolio() {
 
         {/* Tabs */}
   <motion.div
-  className="relative mt-6 w-full overflow-hidden"
+  className="relative mt-6 w-full overflow-hidden sm:overflow-visible"
   initial={{ opacity: 0, y: 10 }}
   whileInView={{ opacity: 1, y: 0 }}
   viewport={{ once: true, amount: 0.2 }}
@@ -177,6 +211,12 @@ function Portfolio() {
     role="tablist"
     aria-label="Portfolio categories"
     onWheel={handleTabWheel}
+    onScroll={(event) => {
+      const next = getScrollEdges(event.currentTarget);
+      setScrollEdges((current) =>
+        current.left === next.left && current.right === next.right ? current : next,
+      );
+    }}
     className="
       flex
       w-full
@@ -184,15 +224,16 @@ function Portfolio() {
       overflow-x-auto
       overscroll-x-contain
       pb-2
-      lg:cursor-ew-resize
       scrollbar-none
       [-ms-overflow-style:none]
       [&::-webkit-scrollbar]:hidden
       snap-x
       snap-mandatory
+      sm:overflow-visible
+      sm:snap-none
     "
   >
-    <div className="flex min-w-max gap-2 px-1">
+    <div className="flex min-w-max gap-2 px-1 sm:w-full sm:min-w-0 sm:flex-wrap sm:justify-center">
       {portfolioCategories.map((tab) => {
         const isActive = tab.id === activeTab.id;
 
@@ -282,7 +323,7 @@ function Portfolio() {
   </div>
 
   {/* Scroll indicator */}
-  <div className="mt-2 flex justify-center">
+  <div className="mt-2 flex justify-center sm:hidden">
     <div className="relative h-0.5 w-20 overflow-hidden rounded-full bg-black/20">
       <motion.div
         className="
@@ -306,19 +347,14 @@ function Portfolio() {
     </div>
   </div>
 
-  {/* Right fade — indicates more tabs */}
+  {/* Edge fades indicate which direction has more tabs on mobile */}
   <div
-    className="
-      pointer-events-none
-      absolute
-      right-0
-      top-0
-      h-[calc(100%-18px)]
-      w-10
-      bg-linear-to-l
-      from-[#01d2d1]/20
-      to-transparent
-    "
+    aria-hidden="true"
+    className={`pointer-events-none absolute left-0 top-0 z-10 h-[calc(100%-18px)] w-12 bg-linear-to-r from-[#01d2d1]/40 to-transparent transition-opacity duration-200 sm:hidden ${scrollEdges.left ? "opacity-100" : "opacity-0"}`}
+  />
+  <div
+    aria-hidden="true"
+    className={`pointer-events-none absolute right-0 top-0 z-10 h-[calc(100%-18px)] w-12 bg-linear-to-l from-[#01d2d1]/40 to-transparent transition-opacity duration-200 sm:hidden ${scrollEdges.right ? "opacity-100" : "opacity-0"}`}
   />
 </motion.div>
 

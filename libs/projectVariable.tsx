@@ -763,6 +763,234 @@ description:
   mainImage: "PR12",
   coverImages: [],
 },
+
+{
+  filter: "Banners",
+  title: "BJORN Sofa Website Banner",
+  type: "image",
+  id: "BA01",
+  description:
+    "Pastel pink furniture hero banner featuring the BJORN sofa, product details, and a clean room setting.",
+  mainImage: "BA01",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "GCC Cloud Guide Banner",
+  type: "image",
+  id: "BA02",
+  description:
+    "Blue GCC banner promoting a cloud productivity guide with a laptop image and download call to action.",
+  mainImage: "BA02",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "B2 Tab Brain Boost Banner",
+  type: "image",
+  id: "BA03",
+  description:
+    "Split pink and blue product banner centered on a sliced blood orange and brain boost messaging.",
+  mainImage: "BA03",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Brox School Billboard Design",
+  type: "image",
+  id: "BA04",
+  description:
+    "Bright school campaign billboard with student portraits, bold typography, and registration details.",
+  mainImage: "BA04",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Christmas Food Menu Banner",
+  type: "image",
+  id: "BA05",
+  description:
+    "Festive burger promotion with warm brown tones, a weekend menu message, and an order button.",
+  mainImage: "BA05",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Food Shop Discount Banner",
+  type: "image",
+  id: "BA06",
+  description:
+    "Red and yellow food promotion showcasing pizza and other dishes in diamond shaped image frames.",
+  mainImage: "BA06",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "BuildPro Digital Ad Set",
+  type: "image",
+  id: "BA07",
+  description:
+    "Coordinated business service banners in multiple web ad sizes with photography and sign up calls to action.",
+  mainImage: "BA07",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Travel the World Banner",
+  type: "image",
+  id: "BA08",
+  description:
+    "Teal travel banner combining mountain and adventure photos with a prominent booking call to action.",
+  mainImage: "BA08",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Furniture Sale Banner Set",
+  type: "image",
+  id: "BA09",
+  description:
+    "Pair of beige furniture sale banners featuring room photography and a 50 percent discount.",
+  mainImage: "BA09",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Organic Milk Website Banner",
+  type: "image",
+  id: "BA10",
+  description:
+    "Peach and red product hero featuring an Alexandre organic milk bottle, nutrition details, and a buy button.",
+  mainImage: "BA10",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Jordan Super.Fly Campaign Banners",
+  type: "image",
+  id: "BA11",
+  description:
+    "Sports campaign banner set pairing basketball action with the Jordan Super.Fly shoe and blue motion graphics.",
+  mainImage: "BA11",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Healthy Because Food Banners",
+  type: "image",
+  id: "BA12",
+  description:
+    "Colorful product banners displaying flour packages, baked foods, and healthy ingredient messaging.",
+  mainImage: "BA12",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Fruit Store Promotion Banners",
+  type: "image",
+  id: "BA13",
+  description:
+    "Two pastel fruit store banners with fruit illustrations, discount messaging, and order buttons.",
+  mainImage: "BA13",
+  coverImages: [],
+},
+
+{
+  filter: "Banners",
+  title: "Agile Luna Cat Tree Banner",
+  type: "image",
+  id: "BA14",
+  description:
+    "Neutral toned pet product banner featuring a gray cat, paw graphics, and the Luna plywood cat tree.",
+  mainImage: "BA14",
+  coverImages: [],
+},
+
+// menu
+
+{
+  filter: "Menu",
+  title: "Salad Menu",
+  type: "image",
+  id: "MENU1",
+  description:
+    "Black restaurant menu featuring seven plated salads, ingredient notes, and yellow prices arranged around the food photography.",
+  mainImage: "M01",
+  coverImages: [],
+},
+{
+  filter: "Menu",
+  title: "The Fresh Bakery Menu",
+  type: "image",
+  id: "MENU2",
+  description:
+    "Bakery menu and promotional flyer in cream and charcoal, with bread photography, pastry listings, and a featured offer.",
+  mainImage: "M02",
+  coverImages: [],
+},
+{
+  filter: "Menu",
+  title: "Karin's Diner Menu",
+  type: "image",
+  id: "MENU3",
+  description:
+    "Dark wood food menu with photographs of soup, spring rolls, rice, and ramen alongside orange headings and prices.",
+  mainImage: "M03",
+  coverImages: [],
+},
+{
+  filter: "Menu",
+  title: "Harvest Noodles Menu",
+  type: "image",
+  id: "MENU4",
+  description:
+    "Tri-fold noodle restaurant menu with charcoal panels, food photography, customer reviews, and ordering details.",
+  mainImage: "M04",
+  coverImages: [],
+},
+{
+  filter: "Menu",
+  title: "Culinary Delights Menu",
+  type: "image",
+  id: "MENU5",
+  description:
+    "Two-page restaurant menu with food photography, cream paper styling, and sections for steaks, pasta, burgers, and desserts.",
+  mainImage: "M05",
+  coverImages: [],
+},
+{
+  filter: "Menu",
+  title: "Japanese Ramen Menu",
+  type: "image",
+  id: "MENU6",
+  description:
+    "Illustrated ramen menu with hand-drawn noodle bowls, a warm beige background, and a red accent circle.",
+  mainImage: "M06",
+  coverImages: [],
+},
+{
+  filter: "Menu",
+  title: "The Courtyard Menu",
+  type: "image",
+  id: "MENU7",
+  description:
+    "Olive and cream café menu with green illustrations and sections for drinks, breakfast, porridge, and toasties.",
+  mainImage: "M07",
+  coverImages: [],
+},
+{
+  filter: "Menu",
+  title: "Carpaccio Italian Menu",
+  type: "image",
+  id: "MENU8",
+  description:
+    "Italian restaurant menu with food photography, architectural collage elements, and sections for pasta, pizza, and main courses.",
+  mainImage: "M08",
+  coverImages: [],
+},
+
+
+
 // SOCIAL MEDIA POSTS
 
 {
@@ -1740,7 +1968,7 @@ description:
 //   video:"CGI_Ideas_V1_4x5",
 
 
-
+// 3D Animations
 {
   title: "Dettol ",
   filter: "3D Animations",
@@ -2755,228 +2983,7 @@ description:
   coverImages: [],
 },
 
-{
-  filter: "Banners",
-  title: "BJORN Sofa Website Banner",
-  type: "image",
-  id: "BA01",
-  description:
-    "Pastel pink furniture hero banner featuring the BJORN sofa, product details, and a clean room setting.",
-  mainImage: "BA01",
-  coverImages: [],
-},
-{
-  filter: "Banners",
-  title: "GCC Cloud Guide Banner",
-  type: "image",
-  id: "BA02",
-  description:
-    "Blue GCC banner promoting a cloud productivity guide with a laptop image and download call to action.",
-  mainImage: "BA02",
-  coverImages: [],
-},
-{
-  filter: "Banners",
-  title: "B2 Tab Brain Boost Banner",
-  type: "image",
-  id: "BA03",
-  description:
-    "Split pink and blue product banner centered on a sliced blood orange and brain boost messaging.",
-  mainImage: "BA03",
-  coverImages: [],
-},
-{
-  filter: "Banners",
-  title: "Brox School Billboard Design",
-  type: "image",
-  id: "BA04",
-  description:
-    "Bright school campaign billboard with student portraits, bold typography, and registration details.",
-  mainImage: "BA04",
-  coverImages: [],
-},
-{
-  filter: "Banners",
-  title: "Christmas Food Menu Banner",
-  type: "image",
-  id: "BA05",
-  description:
-    "Festive burger promotion with warm brown tones, a weekend menu message, and an order button.",
-  mainImage: "BA05",
-  coverImages: [],
-},
-{
-  filter: "Banners",
-  title: "Food Shop Discount Banner",
-  type: "image",
-  id: "BA06",
-  description:
-    "Red and yellow food promotion showcasing pizza and other dishes in diamond shaped image frames.",
-  mainImage: "BA06",
-  coverImages: [],
-},
-{
-  filter: "Banners",
-  title: "BuildPro Digital Ad Set",
-  type: "image",
-  id: "BA07",
-  description:
-    "Coordinated business service banners in multiple web ad sizes with photography and sign up calls to action.",
-  mainImage: "BA07",
-  coverImages: [],
-},
-{
-  filter: "Banners",
-  title: "Travel the World Banner",
-  type: "image",
-  id: "BA08",
-  description:
-    "Teal travel banner combining mountain and adventure photos with a prominent booking call to action.",
-  mainImage: "BA08",
-  coverImages: [],
-},
-{
-  filter: "Banners",
-  title: "Furniture Sale Banner Set",
-  type: "image",
-  id: "BA09",
-  description:
-    "Pair of beige furniture sale banners featuring room photography and a 50 percent discount.",
-  mainImage: "BA09",
-  coverImages: [],
-},
-{
-  filter: "Banners",
-  title: "Organic Milk Website Banner",
-  type: "image",
-  id: "BA10",
-  description:
-    "Peach and red product hero featuring an Alexandre organic milk bottle, nutrition details, and a buy button.",
-  mainImage: "BA10",
-  coverImages: [],
-},
-{
-  filter: "Banners",
-  title: "Jordan Super.Fly Campaign Banners",
-  type: "image",
-  id: "BA11",
-  description:
-    "Sports campaign banner set pairing basketball action with the Jordan Super.Fly shoe and blue motion graphics.",
-  mainImage: "BA11",
-  coverImages: [],
-},
-{
-  filter: "Banners",
-  title: "Healthy Because Food Banners",
-  type: "image",
-  id: "BA12",
-  description:
-    "Colorful product banners displaying flour packages, baked foods, and healthy ingredient messaging.",
-  mainImage: "BA12",
-  coverImages: [],
-},
-{
-  filter: "Banners",
-  title: "Fruit Store Promotion Banners",
-  type: "image",
-  id: "BA13",
-  description:
-    "Two pastel fruit store banners with fruit illustrations, discount messaging, and order buttons.",
-  mainImage: "BA13",
-  coverImages: [],
-},
-{
-  filter: "Banners",
-  title: "Agile Luna Cat Tree Banner",
-  type: "image",
-  id: "BA14",
-  description:
-    "Neutral toned pet product banner featuring a gray cat, paw graphics, and the Luna plywood cat tree.",
-  mainImage: "BA14",
-  coverImages: [],
-},
-
-{
-  filter: "Menu",
-  title: "Salad Menu",
-  type: "image",
-  id: "MENU1",
-  description:
-    "Black restaurant menu featuring seven plated salads, ingredient notes, and yellow prices arranged around the food photography.",
-  mainImage: "M01",
-  coverImages: [],
-},
-{
-  filter: "Menu",
-  title: "The Fresh Bakery Menu",
-  type: "image",
-  id: "MENU2",
-  description:
-    "Bakery menu and promotional flyer in cream and charcoal, with bread photography, pastry listings, and a featured offer.",
-  mainImage: "M02",
-  coverImages: [],
-},
-{
-  filter: "Menu",
-  title: "Karin's Diner Menu",
-  type: "image",
-  id: "MENU3",
-  description:
-    "Dark wood food menu with photographs of soup, spring rolls, rice, and ramen alongside orange headings and prices.",
-  mainImage: "M03",
-  coverImages: [],
-},
-{
-  filter: "Menu",
-  title: "Harvest Noodles Menu",
-  type: "image",
-  id: "MENU4",
-  description:
-    "Tri-fold noodle restaurant menu with charcoal panels, food photography, customer reviews, and ordering details.",
-  mainImage: "M04",
-  coverImages: [],
-},
-{
-  filter: "Menu",
-  title: "Culinary Delights Menu",
-  type: "image",
-  id: "MENU5",
-  description:
-    "Two-page restaurant menu with food photography, cream paper styling, and sections for steaks, pasta, burgers, and desserts.",
-  mainImage: "M05",
-  coverImages: [],
-},
-{
-  filter: "Menu",
-  title: "Japanese Ramen Menu",
-  type: "image",
-  id: "MENU6",
-  description:
-    "Illustrated ramen menu with hand-drawn noodle bowls, a warm beige background, and a red accent circle.",
-  mainImage: "M06",
-  coverImages: [],
-},
-{
-  filter: "Menu",
-  title: "The Courtyard Menu",
-  type: "image",
-  id: "MENU7",
-  description:
-    "Olive and cream café menu with green illustrations and sections for drinks, breakfast, porridge, and toasties.",
-  mainImage: "M07",
-  coverImages: [],
-},
-{
-  filter: "Menu",
-  title: "Carpaccio Italian Menu",
-  type: "image",
-  id: "MENU8",
-  description:
-    "Italian restaurant menu with food photography, architectural collage elements, and sections for pasta, pizza, and main courses.",
-  mainImage: "M08",
-  coverImages: [],
-},
-
+// Merchandise
 {
   filter: "Merchandise",
   title: "Deep Waters Sweatshirt",
